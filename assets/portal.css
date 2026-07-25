@@ -1,0 +1,371 @@
+/* Portal-specific extensions to the EVE Glyph canon */
+
+/* Hero photograph on individual parish pages */
+.hero-photo {
+  margin: 0 0 2.2rem;
+  padding: 0;
+  max-height: 480px;
+  overflow: hidden;
+  position: relative;
+}
+.hero-photo::after {
+  content: "";
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(11,59,92,0) 55%, rgba(11,59,92,0.22) 100%);
+  pointer-events: none;
+}
+.hero-photo img {
+  width: 100%; height: 100%;
+  max-height: 480px;
+  object-fit: cover;
+  display: block;
+}
+
+.portal-body main { background: var(--white); padding: 2.5rem 0 4rem; }
+.portal-header .site-title h1 { font-size: 1.85rem; }
+.portal-hero { max-width: 780px; }
+.portal-hero h1 { font-size: 2.7rem; margin-bottom: 0.6rem; }
+.portal-hero .lead { font-size: 1.3rem; margin-bottom: 1.2rem; }
+
+.parish-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.4rem;
+  max-width: 1100px;
+  margin: 2.5rem auto 3rem;
+}
+.parish-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--parchment);
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--stella-gold);
+  text-decoration: none;
+  color: var(--ink);
+  overflow: hidden;
+  transition: transform 0.15s, box-shadow 0.15s, border-left-color 0.15s;
+}
+.parish-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 22px rgba(11, 59, 92, 0.15);
+  border-left-color: var(--marine);
+  color: var(--ink);
+}
+.parish-card-photo {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: var(--marine-deep);
+}
+.parish-card-photo img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.35s ease;
+}
+.parish-card:hover .parish-card-photo img { transform: scale(1.03); }
+.parish-card-crest-overlay {
+  position: absolute;
+  left: 0.9rem; bottom: 0.9rem;
+  width: 46px; height: 46px;
+  background: rgba(11, 59, 92, 0.92);
+  padding: 5px;
+  border: 1px solid rgba(212, 169, 74, 0.85);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.parish-card-crest-overlay img { width: 100%; height: 100%; display: block; }
+.parish-card-body { padding: 1.2rem 1.4rem 1.4rem; display: flex; flex-direction: column; flex: 1; }
+/* Featured card: Holy Trinity Lenexa — the Knights land here first */
+.parish-card-featured {
+  border-left-color: var(--marine);
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: minmax(300px, 1.2fr) 1fr;
+  align-items: stretch;
+}
+.parish-card-featured .parish-card-photo {
+  aspect-ratio: auto;
+  height: 100%;
+  min-height: 300px;
+}
+.parish-card-featured .parish-card-body { padding: 2rem 2rem 2rem; justify-content: center; }
+.parish-card-featured h3 { font-size: 1.7rem; }
+.parish-card-featured .parish-card-blurb { font-size: 1.05rem; }
+@media (max-width: 720px) {
+  .parish-card-featured { grid-template-columns: 1fr; }
+  .parish-card-featured .parish-card-photo { min-height: 220px; }
+}
+.parish-card h3 {
+  font-size: 1.35rem;
+  color: var(--marine-deep);
+  margin: 0 0 0.2rem;
+}
+.parish-card-city {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-style: italic;
+  color: var(--ink-soft);
+  margin: 0 0 0.7rem;
+  font-size: 1.02rem;
+}
+.parish-card-blurb {
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  margin: 0 0 0.8rem;
+  line-height: 1.55;
+}
+.parish-card-founded {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--marine);
+  margin: auto 0 0;
+  padding-top: 0.6rem;
+  border-top: 1px dotted var(--rule);
+}
+
+.portal-section {
+  max-width: 900px;
+  margin-top: 3rem;
+  padding-top: 2.4rem;
+  border-top: 1px solid var(--rule);
+}
+.portal-section h2 {
+  font-size: 2rem;
+  color: var(--marine-deep);
+  margin-bottom: 0.4em;
+}
+.pillars {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.4rem;
+  margin-top: 1.4rem;
+}
+.pillar {
+  background: var(--parchment);
+  border-left: 3px solid var(--stella-gold);
+  padding: 1rem 1.2rem;
+}
+.pillar h4 {
+  color: var(--marine);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.15rem;
+  margin: 0 0 0.35em;
+}
+.pillar p { font-size: 0.94rem; margin: 0; color: var(--ink-soft); }
+
+.kofc-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.4rem 0;
+}
+.kofc-list li {
+  padding: 0.8rem 0 0.9rem 1.2rem;
+  border-top: 1px solid var(--rule);
+  position: relative;
+}
+.kofc-list li:last-child { border-bottom: 1px solid var(--rule); }
+.kofc-list li::before {
+  content: "◆";
+  color: var(--stella-gold);
+  position: absolute;
+  left: 0;
+  top: 0.85rem;
+  font-size: 0.85rem;
+}
+.kofc-list li strong { color: var(--marine-deep); }
+.kofc-note {
+  font-style: italic;
+  color: var(--marine);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.05rem;
+  margin-top: 0.8rem;
+}
+
+.doctrine-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.6rem;
+  margin-top: 1.4rem;
+}
+.doctrine-grid h4 {
+  color: var(--marine-deep);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.2rem;
+  margin: 0 0 0.35em;
+  padding-bottom: 0.35em;
+  border-bottom: 1px solid var(--rule);
+}
+.doctrine-grid p { color: var(--ink-soft); font-size: 0.95rem; }
+
+@media (max-width: 600px) {
+  .portal-hero h1 { font-size: 2rem; }
+  .portal-hero .lead { font-size: 1.1rem; }
+  .portal-section h2 { font-size: 1.6rem; }
+}
+
+/* Caisse callout block on the KofC section */
+.caisse-callout {
+  margin-top: 2rem;
+  padding: 1.5rem 1.75rem;
+  border-left: 4px solid #b08a3e;
+  background: #fbf7ee;
+  border-radius: 4px;
+}
+.caisse-callout h3 {
+  margin-top: 0;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.35rem;
+  color: #4a3820;
+}
+.caisse-callout .caisse-links {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+.caisse-callout .btn-primary {
+  display: inline-block;
+  padding: 0.55rem 1.1rem;
+  background: #4a3820;
+  color: #fbf7ee;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.caisse-callout .btn-primary:hover { background: #6a5230; }
+
+/* Caisse hero — top-of-landing prominent block, above the parish grid */
+.caisse-hero {
+  margin: 2.5rem 0 3rem;
+  padding: 2.25rem 2.25rem 2rem;
+  background: linear-gradient(180deg, #fbf7ee 0%, #f5efe0 100%);
+  border: 1px solid #d9c99d;
+  border-left: 6px solid #b08a3e;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(74, 56, 32, 0.08);
+}
+.caisse-hero-badge {
+  display: inline-block;
+  padding: 0.3rem 0.75rem;
+  margin-bottom: 1rem;
+  background: #4a3820;
+  color: #fbf7ee;
+  font-family: 'Source Sans 3', system-ui, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-radius: 2px;
+}
+.caisse-hero h2 {
+  margin: 0 0 0.75rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #3a2a10;
+  line-height: 1.15;
+}
+.caisse-hero-lead {
+  font-size: 1.08rem;
+  color: #3a2a10;
+  margin-bottom: 1.5rem;
+  line-height: 1.55;
+}
+.caisse-hero-plain {
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 4px;
+  padding: 1.1rem 1.4rem 1.1rem 1.4rem;
+  margin: 1rem 0 1.25rem;
+}
+.caisse-hero-plain p:first-child {
+  margin-top: 0;
+  color: #4a3820;
+}
+.caisse-hero-plain ul {
+  margin: 0.75rem 0 0;
+  padding-left: 1.25rem;
+}
+.caisse-hero-plain li {
+  margin-bottom: 0.6rem;
+  line-height: 1.5;
+  color: #3a2a10;
+}
+.caisse-hero-plain li:last-child {
+  margin-bottom: 0;
+}
+.caisse-hero-lineage {
+  font-style: italic;
+  color: #5a4630;
+  margin: 1.25rem 0;
+  padding: 0.75rem 1rem;
+  border-left: 3px solid #b08a3e;
+  background: rgba(255, 255, 255, 0.4);
+}
+.caisse-hero-lineage strong {
+  font-style: normal;
+  color: #3a2a10;
+}
+.caisse-hero-cta {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  align-items: center;
+}
+.caisse-hero-cta .btn-primary {
+  display: inline-block;
+  padding: 0.7rem 1.35rem;
+  background: #4a3820;
+  color: #fbf7ee;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.98rem;
+}
+.caisse-hero-cta .btn-primary:hover {
+  background: #6a5230;
+}
+.caisse-hero-cta .btn-secondary {
+  display: inline-block;
+  padding: 0.7rem 1.25rem;
+  background: transparent;
+  color: #4a3820;
+  border: 1px solid #b08a3e;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.98rem;
+}
+.caisse-hero-cta .btn-secondary:hover {
+  background: rgba(176, 138, 62, 0.1);
+}
+
+.parish-grid-heading {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  color: #3a2a10;
+  margin: 0 0 1rem;
+  font-size: 1.4rem;
+}
+
+.caisse-crossref {
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #e5dcc2;
+  font-size: 0.95rem;
+  color: #5a4630;
+  font-style: italic;
+}
+.caisse-crossref a { color: #4a3820; font-weight: 600; }
+
+@media (max-width: 640px) {
+  .caisse-hero { padding: 1.5rem 1.25rem; margin: 1.5rem 0 2rem; }
+  .caisse-hero h2 { font-size: 1.55rem; }
+  .caisse-hero-lead { font-size: 1rem; }
+  .caisse-hero-plain { padding: 0.9rem 1rem; }
+  .caisse-hero-cta { flex-direction: column; align-items: stretch; }
+  .caisse-hero-cta .btn-primary,
+  .caisse-hero-cta .btn-secondary { text-align: center; }
+}

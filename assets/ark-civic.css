@@ -1,0 +1,175 @@
+/* ARK-CIVIC — Midwest Watch
+   Extends the inherited EVE Glyph Design canon (assets/style.css).
+   Invariant 3: semantic colour is off-glyph only. The crest is never tinted. */
+
+:root{
+  --ark-baby:#8fc4dd;      /* ARK mark */
+  --ark-blue:#0b3b5c;      /* past / soil */
+  --ark-red:#8c2b25;       /* future / truth */
+  --ark-orange:#c2621d;    /* velocity vector */
+  --ark-green:#2f6b4f;     /* decision intelligence */
+  --ark-ochre:#b8892b;     /* brand chrome only */
+}
+
+body{
+  margin:0;
+  background:var(--parchment,#f5efe1);
+  color:var(--ink,#1c1a15);
+  font-family:Georgia,"Iowan Old Style","Times New Roman",serif;
+  line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+}
+
+.wrap{max-width:52rem;margin:0 auto;padding:0 1.5rem;}
+
+/* ---------- header ---------- */
+.ark-head{
+  background:var(--marine-deep,#072a44);
+  color:var(--parchment,#f5efe1);
+  padding:3.5rem 0 3rem;
+  border-bottom:3px solid var(--ark-baby);
+}
+.ark-head .crest{width:60px;height:auto;display:block;margin:0 0 1.5rem;}
+.eyebrow{
+  font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  text-transform:uppercase;letter-spacing:.16em;font-size:.68rem;
+  color:var(--ark-baby);margin:0 0 .6rem;font-weight:600;
+}
+.ark-head h1{
+  font-size:clamp(2.1rem,5.5vw,3.1rem);line-height:1.1;
+  margin:0 0 .5rem;font-weight:400;letter-spacing:-.015em;
+}
+.ark-head .sub{
+  font-size:clamp(1.05rem,2.4vw,1.3rem);margin:0 0 1.4rem;
+  color:var(--parchment-warm,#ebe1ca);
+}
+.stamp{
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+  font-size:.76rem;letter-spacing:.02em;margin:0;
+  color:var(--ark-baby);opacity:.92;
+}
+.stamp code{background:rgba(143,196,221,.14);padding:.1em .45em;border-radius:2px;}
+
+/* ---------- sections ---------- */
+section{padding:2.75rem 0;border-bottom:1px solid var(--rule,#d9cfb8);}
+section:last-of-type{border-bottom:none;}
+h2{
+  font-size:1.5rem;font-weight:400;margin:0 0 1rem;
+  letter-spacing:-.01em;color:var(--marine,#0b3b5c);
+}
+h3{font-size:1.08rem;font-weight:600;margin:2rem 0 .6rem;color:var(--ink,#1c1a15);}
+p{margin:0 0 1rem;}
+.lede{font-size:1.07rem;color:var(--ink-soft,#3b352a);}
+a{color:var(--marine-light,#1a5578);text-decoration:underline;text-underline-offset:2px;text-decoration-thickness:1px;}
+a:hover{color:var(--ark-red);}
+
+.rule-card{
+  background:var(--white,#fffdf7);
+  border:1px solid var(--rule,#d9cfb8);
+  border-left:4px solid var(--ark-baby);
+  padding:1.75rem;margin-top:2.5rem;border-radius:2px;
+}
+
+/* the privacy invariant — load-bearing, styled as such */
+.invariant{
+  margin:1.5rem 0 .25rem;padding:1.25rem 1.4rem;
+  background:var(--marine-deep,#072a44);border-radius:2px;
+}
+.invariant-line{
+  margin:0 0 .5rem;color:var(--parchment,#f5efe1);
+  font-size:1.06rem;line-height:1.45;font-weight:600;
+}
+.invariant-sub{
+  margin:0;color:var(--ark-baby);font-size:.88rem;line-height:1.5;
+  font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+
+/* ---------- register grid ---------- */
+.reg-grid{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));
+  gap:1rem;margin-top:1.25rem;
+}
+.reg{
+  background:var(--white,#fffdf7);border:1px solid var(--rule,#d9cfb8);
+  border-top:3px solid var(--ark-ochre);padding:1.15rem 1.2rem;border-radius:2px;
+}
+.reg .code{
+  display:inline-block;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+  font-size:.7rem;letter-spacing:.1em;font-weight:700;
+  color:var(--marine,#0b3b5c);background:var(--parchment-warm,#ebe1ca);
+  padding:.18em .5em;border-radius:2px;margin-bottom:.5rem;
+}
+.reg h3{margin:.35rem 0 .4rem;font-size:1rem;}
+.reg p{margin:0;font-size:.9rem;color:var(--ink-soft,#3b352a);line-height:1.5;}
+.reg-leg{border-top-color:var(--ark-blue);}
+.reg-bal{border-top-color:var(--ark-orange);}
+.reg-saf{border-top-color:var(--ark-green);}
+.reg-rgt{border-top-color:var(--ark-red);}
+.reg-chr{border-top-color:var(--ark-ochre);}
+.reg-cmn{border-top-color:var(--ark-baby);}
+
+/* ---------- findings ---------- */
+.find-h{
+  border-left:3px solid var(--ark-red);padding-left:.75rem;
+  margin-top:2.25rem;
+}
+.find-h.good{border-left-color:var(--ark-green);}
+
+.ark-table{
+  width:100%;border-collapse:collapse;margin:1.25rem 0 1.5rem;
+  font-size:.93rem;background:var(--white,#fffdf7);
+}
+.ark-table th{
+  text-align:left;padding:.7rem .85rem;
+  background:var(--marine,#0b3b5c);color:var(--parchment,#f5efe1);
+  font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:.74rem;text-transform:uppercase;letter-spacing:.1em;font-weight:600;
+}
+.ark-table td{
+  padding:.7rem .85rem;border-bottom:1px solid var(--rule,#d9cfb8);
+  vertical-align:top;line-height:1.5;
+}
+.ark-table tr:last-child td{border-bottom:none;}
+.ark-table strong{color:var(--ark-red);}
+
+/* ---------- gate ---------- */
+.gate{
+  background:var(--white,#fffdf7);
+  border:1px solid var(--ark-red);border-left:4px solid var(--ark-red);
+  padding:1.75rem;margin:2.5rem 0;border-radius:2px;
+}
+.gate h2{color:var(--ark-red);margin-bottom:.85rem;}
+.gate-note{
+  font-size:.88rem;color:var(--ink-soft,#3b352a);margin:0;
+  font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+
+/* ---------- sources ---------- */
+.src-list{margin:0 0 1.5rem;padding-left:1.15rem;}
+.src-list li{margin-bottom:.5rem;line-height:1.55;}
+.posture{
+  font-size:.9rem;color:var(--ink-soft,#3b352a);
+  border-top:1px solid var(--rule,#d9cfb8);padding-top:1.1rem;margin-bottom:0;
+}
+
+/* ---------- footer ---------- */
+.ark-foot{
+  background:var(--marine-deep,#072a44);color:var(--parchment-warm,#ebe1ca);
+  padding:2.5rem 0 3rem;margin-top:1rem;
+  border-top:3px solid var(--ark-baby);
+}
+.ark-foot .founder{font-size:.92rem;margin:0 0 1rem;color:var(--parchment,#f5efe1);}
+.ark-foot .copyright{
+  font-size:.78rem;line-height:1.6;margin:0 0 1rem;
+  color:var(--parchment-warm,#ebe1ca);opacity:.9;
+}
+.ark-foot .welfare{
+  font-style:italic;font-size:.95rem;margin:0;color:var(--ark-baby);
+}
+
+@media (max-width:34rem){
+  .ark-head{padding:2.5rem 0 2rem;}
+  .rule-card,.gate{padding:1.25rem;}
+  .ark-table{font-size:.86rem;}
+  .ark-table th,.ark-table td{padding:.55rem .6rem;}
+}

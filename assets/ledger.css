@@ -1,0 +1,337 @@
+/* ARK Peer Review Ledger — extensions to the EVE Glyph canon.
+   Inherits from style.css and portal.css. Do not restate variables. */
+
+/* Entry gate — three doors */
+.gate-choice {
+  margin-top: 2rem;
+  padding: 1.5rem 1.5rem 1.2rem;
+  background: var(--parchment);
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--stella-gold);
+}
+.gate-choice-lead {
+  margin: 0 0 1rem;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.15rem;
+  color: var(--marine-deep);
+}
+.gate-doors {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.9rem;
+}
+.gate-door {
+  display: block;
+  text-align: left;
+  padding: 0.95rem 1.1rem;
+  background: var(--white);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--stella-gold);
+  color: var(--ink);
+  font-family: inherit;
+  cursor: pointer;
+  transition: transform 0.12s, border-left-color 0.12s, box-shadow 0.12s;
+}
+.gate-door:hover {
+  transform: translateY(-1px);
+  border-left-color: var(--marine);
+  box-shadow: 0 4px 14px rgba(11, 59, 92, 0.10);
+}
+.gate-door.chosen {
+  border-left-color: var(--marine-deep);
+  background: #fbf7ee;
+}
+.gate-door-label {
+  display: block;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.2rem;
+  color: var(--marine-deep);
+  margin-bottom: 0.25rem;
+}
+.gate-door-note {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  line-height: 1.45;
+}
+.gate-choice-note {
+  margin: 1rem 0 0;
+  padding: 0.75rem 0.9rem;
+  background: rgba(255, 255, 255, 0.55);
+  border-left: 3px solid var(--marine);
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+/* Ledger table */
+.ledger-table-wrap {
+  margin-top: 1.5rem;
+  overflow-x: auto;
+  border: 1px solid var(--rule);
+  background: var(--white);
+}
+.ledger-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+.ledger-table th,
+.ledger-table td {
+  text-align: left;
+  vertical-align: top;
+  padding: 1rem 1.1rem;
+  border-bottom: 1px solid var(--rule);
+}
+.ledger-table thead th {
+  background: var(--marine-deep);
+  color: var(--white);
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 600;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--stella-gold);
+}
+.ledger-table tbody tr:last-child td { border-bottom: none; }
+.ledger-table tbody tr:nth-child(even) { background: #fbf7ee; }
+
+.col-time { width: 14%; min-width: 130px; }
+.col-piece { width: 36%; }
+.col-canon { width: 38%; }
+.col-score { width: 12%; min-width: 130px; }
+
+.ts {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.15rem;
+  color: var(--marine-deep);
+  font-weight: 600;
+}
+.ts-label {
+  margin-top: 0.25rem;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--stella-gold);
+}
+.piece-attrib,
+.canon-ref {
+  margin-top: 0.5rem;
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  font-style: italic;
+}
+.canon-ref em { font-style: normal; color: var(--marine); }
+
+.dot {
+  display: inline-block;
+  width: 12px; height: 12px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  vertical-align: -1px;
+}
+.dot-full { background: #4a7a3d; box-shadow: inset 0 0 0 2px #2d5325; }
+.dot-partial { background: #b08a3e; box-shadow: inset 0 0 0 2px #7a5f2a; }
+.dot-none { background: #b13a3a; box-shadow: inset 0 0 0 2px #7a2525; }
+.score-label {
+  font-size: 0.85rem;
+  color: var(--marine-deep);
+  font-weight: 600;
+}
+.ledger-footnote {
+  margin-top: 1rem;
+  font-size: 0.88rem;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+@media (max-width: 720px) {
+  .ledger-table thead { display: none; }
+  .ledger-table, .ledger-table tbody, .ledger-table tr, .ledger-table td { display: block; width: 100%; }
+  .ledger-table tr {
+    border-bottom: 2px solid var(--rule);
+    padding: 0.8rem 0;
+  }
+  .ledger-table td {
+    border-bottom: 1px dotted var(--rule);
+    padding: 0.7rem 1rem;
+  }
+  .ledger-table tbody tr:last-child td:last-child { border-bottom: none; }
+  .col-time, .col-piece, .col-canon, .col-score { width: 100%; min-width: 0; }
+  .col-score::before { content: "Resonance — "; font-weight: 600; color: var(--marine-deep); font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; }
+}
+
+/* Umbrella-copyright notice */
+.umbrella-notice {
+  margin-top: 1.25rem;
+  padding: 1.1rem 1.3rem 1rem;
+  background: #fbf7ee;
+  border: 1px solid #d9c99d;
+  border-left: 4px solid #b08a3e;
+  border-radius: 4px;
+}
+.umbrella-notice-badge {
+  display: inline-block;
+  padding: 0.3rem 0.75rem;
+  margin-bottom: 0.7rem;
+  background: #4a3820;
+  color: #fbf7ee;
+  font-family: 'Source Sans 3', system-ui, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-radius: 2px;
+}
+.umbrella-notice p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #3a2a10;
+  line-height: 1.55;
+}
+.umbrella-notice strong { color: #3a2a10; }
+
+/* Intake CTA + panel */
+.intake-cta {
+  margin: 1.25rem 0 0.5rem;
+}
+.intake-open {
+  display: inline-block;
+  padding: 0.85rem 1.5rem;
+  background: var(--marine-deep);
+  color: var(--white);
+  border: 1px solid var(--marine-deep);
+  border-radius: 3px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.12s, border-color 0.12s;
+}
+.intake-open:hover { background: var(--marine); border-color: var(--marine); }
+
+.intake-panel {
+  margin-top: 1.25rem;
+}
+.intake-lead {
+  margin: 0 0 1rem;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.1rem;
+  color: var(--marine-deep);
+}
+.field-hint {
+  display: block;
+  margin-top: 0.3rem;
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  font-style: italic;
+  text-transform: none;
+  letter-spacing: 0;
+}
+.intake-status.status-ok { border-left-color: #4a7a3d; }
+.intake-status.status-hold { border-left-color: var(--stella-gold); }
+.intake-status.status-err { border-left-color: #b13a3a; }
+
+/* Signal form */
+.signal-form {
+  margin-top: 1.4rem;
+  padding: 1.5rem 1.6rem 1.4rem;
+  background: var(--parchment);
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--marine);
+}
+.signal-form label {
+  display: block;
+  margin-bottom: 1rem;
+}
+.signal-form label > span {
+  display: block;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--marine-deep);
+  margin-bottom: 0.35rem;
+}
+.signal-form input[type="text"],
+.signal-form textarea {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  font-family: inherit;
+  font-size: 0.95rem;
+  color: var(--ink);
+  background: var(--white);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+}
+.signal-form textarea { resize: vertical; }
+.signal-resonance {
+  margin: 0 0 1rem;
+  padding: 0.6rem 0.9rem 0.4rem;
+  border: 1px solid var(--rule);
+  background: var(--white);
+}
+.signal-resonance legend {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--marine-deep);
+  padding: 0 0.4rem;
+}
+.signal-resonance label.inline {
+  display: inline-block;
+  margin: 0 1.1rem 0.4rem 0;
+  font-size: 0.95rem;
+}
+.signal-resonance label.inline input { margin-right: 0.35rem; }
+.signal-pledge {
+  display: flex;
+  gap: 0.6rem;
+  align-items: flex-start;
+  margin: 0.4rem 0 1rem;
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+}
+.signal-pledge input { margin-top: 0.25rem; flex-shrink: 0; }
+.signal-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+.signal-actions .btn-primary {
+  display: inline-block;
+  padding: 0.65rem 1.25rem;
+  background: var(--marine-deep);
+  color: var(--white);
+  border: 1px solid var(--marine-deep);
+  border-radius: 3px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.signal-actions .btn-primary:hover { background: var(--marine); border-color: var(--marine); }
+.signal-actions .btn-secondary {
+  display: inline-block;
+  padding: 0.65rem 1.15rem;
+  background: transparent;
+  color: var(--marine-deep);
+  border: 1px solid var(--marine);
+  border-radius: 3px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+.signal-actions .btn-secondary:hover { background: rgba(11, 59, 92, 0.06); }
+.signal-note {
+  margin: 1rem 0 0;
+  padding: 0.75rem 0.9rem;
+  background: var(--white);
+  border-left: 3px solid var(--stella-gold);
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+  white-space: pre-wrap;
+}
