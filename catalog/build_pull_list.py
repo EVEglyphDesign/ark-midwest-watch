@@ -32,6 +32,7 @@ blocked = by_state["BLOCKED"]
 feats = st["features_pulled"]
 files = st["files"]
 mb = st["bytes"] / 1024 / 1024
+part = st.get("partial_layers", 0)
 
 
 def rows(r):
@@ -43,11 +44,19 @@ L = [f"""# ARK-CIVIC · Holdings
 
 **Captured:** {gen}
 **Held in this repository:** {len(pulled):,} datasets · {files:,} files · {feats:,} records · {mb:.0f} MB
+**Held in part:** {part} layers are shorter than the publisher's own row count and each says so
 **Instance:** `midwest-lenexa`
 
 Every file below is in `catalog/data/`, gzipped, pulled from the publisher's own
 endpoint. Nothing here is fetched at page load. If every upstream endpoint were
 withdrawn tomorrow, all of it would still be here.
+
+Every count was read back off the stored file after trimming, not carried over
+from the fetch. {part} layers are held in part rather than whole — an ArcGIS
+service answers with one page at a time, and files over this repository's 4 MB
+ceiling were cut. Each of those carries a `truncated` field in `pull_status.json`
+stating both numbers. **A partial holding presented as a whole one is a quiet
+falsehood, so none of them are counted as complete.**
 
 | State | Datasets | Meaning |
 |---|---:|---|
@@ -289,9 +298,12 @@ page = f"""<!DOCTYPE html>
       <div class="stat"><span class="n">{len(schema):,}</span><span class="l">schema only</span></div>
       <div class="stat"><span class="n">{len(withheld)}</span><span class="l">withheld by canon</span></div>
       <div class="stat"><span class="n">{len(blocked):,}</span><span class="l">blocked</span></div>
+      <div class="stat"><span class="n">{part}</span><span class="l">held in part</span></div>
     </div>
     <p class="lede">{feats:,} records across {files:,} files are held in this repository, pulled
-    from each publisher's own endpoint. <strong>A wall that is named is a finding; a wall that is
+    from each publisher's own endpoint. {part} of those layers are held in part rather than whole,
+    because a service answers with one page at a time and files over this record's 4&nbsp;MB ceiling
+    were cut; each one states both numbers rather than being counted as complete. <strong>A wall that is named is a finding; a wall that is
     silently skipped is a lie by omission</strong> — so every dataset that could not be pulled is
     listed below with the reason and with who can remove it.</p>
     <div class="callout">
