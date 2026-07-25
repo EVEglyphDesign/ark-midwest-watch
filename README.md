@@ -32,6 +32,17 @@ That condition is as real as the weather, changes faster than most people can tr
 
 No profiling. No scoring of any named human being. No watchlist. This is not a tunable policy — it is First Principle Zero in this domain, and an instance that ingests person-level data has left the umbrella. Full statement in [canon §2](CANON-ARK-CIVIC-CONDITION.md).
 
+## The held catalogue
+
+`catalog/` holds **1,755 public dataset records** covering Lenexa, Johnson County, and the KC metro, pulled from six catalogues and stored in this repository. [`catalog.html`](https://eveglyphdesign.github.io/ark-midwest-watch/catalog.html) is searchable and loads nothing from a third party. If every upstream endpoint were withdrawn, the index would still resolve.
+
+**Metadata only.** No dataset contents are mirrored. 79 records carrying person-level terms are indexed as existing and marked `never-mirror`, including the City of Lenexa `HubCallsForService` feature server. See [`catalog/PROVENANCE.md`](catalog/PROVENANCE.md) for every source, every rejection, and one corrected attribution error.
+
+```bash
+python3 catalog/ingest.py         # re-pull upstream
+python3 catalog/build_surface.py  # regenerate index and surface
+```
+
 ## Who this record is for
 
 ARK-CIVIC is aligned to the **permanent state** — the part of public institutions that persists across every administration that passes over it. The officer on a shift, the dispatcher, the paramedic, the records clerk, the parish worker, the county employee maintaining the map server. People who took a position in which other people's lives and interests come ahead of their own.

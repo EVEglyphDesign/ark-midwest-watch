@@ -1,0 +1,300 @@
+{
+ "(root)": {
+  "currentVersion": 11.5,
+  "folders": [
+   "Edgerton",
+   "JCW_UtilityMapping",
+   "Mission",
+   "PrairieVillage",
+   "SpringHill",
+   "Test",
+   "Utilities",
+   "WebEOC"
+  ],
+  "services": [
+   {
+    "name": "AIR_PLN_Areas",
+    "type": "MapServer"
+   },
+   {
+    "name": "Annexation",
+    "type": "FeatureServer"
+   },
+   {
+    "name": "Annexation",
+    "type": "MapServer"
+   },
+   {
+    "name": "BaseMap_StatePlane",
+    "type": "MapServer"
+   },
+   {
+    "name": "BaseMapIMS",
+    "type": "MapServer"
+   },
+   {
+    "name": "BikeJoco",
+    "type": "MapServer"
+   },
+   {
+    "name": "CommunityMentalHealthCentersofKS",
+    "type": "MapServer"
+   },
+   {
+    "name": "CountyGeocode",
+    "type": "GeocodeServer"
+   },
+   {
+    "name": "CountyXLGeocode",
+    "type": "GeocodeServer"
+   },
+   {
+    "name": "DEM_2006",
+    "type": "ImageServer"
+   },
+   {
+    "name": "DEM_Current2",
+    "type": "ImageServer"
+   },
+   {
+    "name": "DensityLayers",
+    "type": "MapServer"
+   },
+   {
+    "name": "Districts",
+    "type": "MapServer"
+   },
+   {
+    "name": "DSM_2012",
+    "type": "ImageServer"
+   },
+   {
+    "name": "DTM_2012",
+    "type": "ImageServer"
+   },
+   {
+    "name": "Emergency",
+    "type": "MapServer"
+   },
+   {
+    "name": "FreeData2",
+    "type": "MapServer"
+   },
+   {
+    "name": "Geometry",
+    "type": "GeometryServer"
+   },
+   {
+    "name": "HeatIsland_Data",
+    "type": "FeatureServer"
+   },
+   {
+    "name": "HeatIsland_Data",
+    "type": "MapServer"
+   },
+   {
+    "name": "HeatIsland_Raster",
+    "type": "MapServer"
+   },
+   {
+    "name": "Imagery_Other",
+    "type": "MapServer"
+   },
+   {
+    "name": "ImportPlat",
+    "type": "MapServer"
+   },
+   {
+    "name": "IndianCreekRawData",
+    "type": "ImageServer"
+   },
+   {
+    "name": "JCW_GBA",
+    "type": "FeatureServer"
+   },
+   {
+    "name": "JCW_GBA",
+    "type": "MapServer"
+   },
+   {
+    "name": "JCW_Locates",
+    "type": "FeatureServer"
+   },
+   {
+    "name": "JCW_Locates",
+    "type": "MapServer"
+   },
+   {
+    "name": "KCMetro_UtilityCoord",
+    "type": "FeatureServer"
+   },
+   {
+    "name": "KCMetro_UtilityCoord",
+    "type": "MapServer"
+   },
+   {
+    "name": "Landmarks",
+    "type": "MapServer"
+   },
+   {
+    "name": "MARC_NRI",
+    "type": "MapServer"
+   },
+   {
+    "name": "Poverty",
+    "type": "MapServer"
+   },
+   {
+    "name": "PWRowdocs",
+    "type": "MapServer"
+   },
+   {
+    "name": "RegionalGeocode",
+    "type": "GeocodeServer"
+   },
+   {
+    "name": "Stream_Erosion",
+    "type": "ImageServer"
+   },
+   {
+    "name": "TestESZ",
+    "type": "MapServer"
+   },
+   {
+    "name": "TheJO",
+    "type": "MapServer"
+   },
+   {
+    "name": "WatershedMasterPlans",
+    "type": "MapServer"
+   }
+  ]
+ },
+ "Edgerton": {
+  "currentVersion": 11.5,
+  "folders": [],
+  "services": [
+   {
+    "name": "Edgerton/Energov",
+    "type": "MapServer"
+   },
+   {
+    "name": "Edgerton/Incode",
+    "type": "MapServer"
+   }
+  ]
+ },
+ "JCW_UtilityMapping": {
+  "currentVersion": 11.5,
+  "folders": [],
+  "services": []
+ },
+ "Mission": {
+  "currentVersion": 11.5,
+  "folders": [],
+  "services": [
+   {
+    "name": "Mission/Mission_Permitting",
+    "type": "FeatureServer"
+   },
+   {
+    "name": "Mission/Mission_Permitting",
+    "type": "MapServer"
+   }
+  ]
+ },
+ "PrairieVillage": {
+  "currentVersion": 11.5,
+  "folders": [],
+  "services": [
+   {
+    "name": "PrairieVillage/Parcels",
+    "type": "MapServer"
+   }
+  ]
+ },
+ "SpringHill": {
+  "currentVersion": 11.5,
+  "folders": [],
+  "services": [
+   {
+    "name": "SpringHill/OpenGov",
+    "type": "MapServer"
+   }
+  ]
+ },
+ "Test": {
+  "currentVersion": 11.5,
+  "folders": [],
+  "services": [
+   {
+    "name": "Test/ClientCenters_PL",
+    "type": "FeatureServer"
+   },
+   {
+    "name": "Test/ClientCenters_PL",
+    "type": "MapServer"
+   },
+   {
+    "name": "Test/CrimeWatch",
+    "type": "MapServer"
+   },
+   {
+    "name": "Test/FlowRate",
+    "type": "MapServer"
+   }
+  ]
+ },
+ "Utilities": {
+  "currentVersion": 11.5,
+  "folders": [],
+  "services": [
+   {
+    "name": "Utilities/PrintingTools",
+    "type": "GPServer"
+   },
+   {
+    "name": "Utilities/RasterUtilities",
+    "type": "GPServer"
+   },
+   {
+    "name": "Utilities/Symbols",
+    "type": "SymbolServer"
+   }
+  ]
+ },
+ "WebEOC": {
+  "currentVersion": 11.5,
+  "folders": [],
+  "services": [
+   {
+    "name": "WebEOC/CountyBoundary",
+    "type": "MapServer"
+   },
+   {
+    "name": "WebEOC/CrowdDamage",
+    "type": "FeatureServer"
+   },
+   {
+    "name": "WebEOC/CrowdDamage",
+    "type": "MapServer"
+   },
+   {
+    "name": "WebEOC/DamageAssessment",
+    "type": "FeatureServer"
+   },
+   {
+    "name": "WebEOC/DamageAssessment",
+    "type": "MapServer"
+   },
+   {
+    "name": "WebEOC/DamageAssessmentViewer",
+    "type": "MapServer"
+   },
+   {
+    "name": "WebEOC/EmergencyManagement",
+    "type": "MapServer"
+   }
+  ]
+ }
+}
