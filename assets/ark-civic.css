@@ -88,6 +88,21 @@ a:hover{color:var(--ark-red);}
   font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
 }
 
+.orient{}
+.orient .lede strong{color:var(--marine,#0b3b5c);}
+.orient-note{
+  margin:1.5rem 0 0;padding:1.3rem 1.4rem;
+  background:var(--parchment-warm,#ebe1ca);
+  border-left:4px solid var(--ark-green);border-radius:2px;
+}
+.orient-note p{margin:0 0 .7rem;}
+.orient-note p:last-child{margin-bottom:0;}
+.orient-note em{font-size:1.05rem;color:var(--ink,#1c1a15);}
+.orient-sub{
+  font-size:.89rem;line-height:1.55;color:var(--ink-soft,#3b352a);
+  font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+
 /* ---------- register grid ---------- */
 .reg-grid{
   display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));

@@ -3,6 +3,7 @@
 **Status:** Proposed · awaiting Knight Triangle authorization
 **Authority:** Extends [`CANON-ARK-WORLD-CONDITION-REPOSITORY.md`](https://github.com/EVEglyphDesign/eve-glyph-methodology/blob/main/vault/sealed/CANON-ARK-WORLD-CONDITION-REPOSITORY.md), sealed 2026-05-20T06:05:11Z
 **Inherits:** First Principle Zero · Umbrella · Knight Triangle · Timestamp Convention · World-Condition Hash · Transaction Record
+**Oriented by:** [`ORIENTATION-PERMANENT-STATE.md`](ORIENTATION-PERMANENT-STATE.md) — binds who this record serves and how every observation is written
 **Conformance:** [ARK Vector Specification v1](https://github.com/EVEglyphDesign/eve-glyph-methodology/blob/main/specification/ark-vector-specification.md) — all seven invariants
 **Instance scope:** Kansas City metropolitan area, Kansas side — City of Lenexa, Johnson County KS
 **Proposed (utc):** 2026-07-25

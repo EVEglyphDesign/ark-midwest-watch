@@ -32,6 +32,12 @@ That condition is as real as the weather, changes faster than most people can tr
 
 No profiling. No scoring of any named human being. No watchlist. This is not a tunable policy — it is First Principle Zero in this domain, and an instance that ingests person-level data has left the umbrella. Full statement in [canon §2](CANON-ARK-CIVIC-CONDITION.md).
 
+## Who this record is for
+
+ARK-CIVIC is aligned to the **permanent state** — the part of public institutions that persists across every administration that passes over it. The officer on a shift, the dispatcher, the paramedic, the records clerk, the parish worker, the county employee maintaining the map server. People who took a position in which other people's lives and interests come ahead of their own.
+
+**The findings here are not accusations against them. They are the conditions imposed on them.** Full statement, including the anti-contempt clause that binds how every observation is written: [`ORIENTATION-PERMANENT-STATE.md`](ORIENTATION-PERMANENT-STATE.md).
+
 ## Registers
 
 | Code | Register | Holds |
