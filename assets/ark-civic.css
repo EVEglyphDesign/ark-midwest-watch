@@ -38,7 +38,11 @@ body{
 .ark-head h1{
   font-size:clamp(2.1rem,5.5vw,3.1rem);line-height:1.1;
   margin:0 0 .5rem;font-weight:400;letter-spacing:-.015em;
+  /* inherited style.css sets a dark ink colour on h1; on the marine-deep
+     header that renders near-invisible. Forced light here. */
+  color:var(--parchment,#f5efe1);
 }
+.ark-head h2,.ark-head h3{color:var(--parchment,#f5efe1);}
 .ark-head .sub{
   font-size:clamp(1.05rem,2.4vw,1.3rem);margin:0 0 1.4rem;
   color:var(--parchment-warm,#ebe1ca);
