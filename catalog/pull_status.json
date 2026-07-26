@@ -11,7 +11,7 @@
   "WITHHELD": 79,
   "BLOCKED": 251
  },
- "features_pulled": 2109302,
+ "features_pulled": 2756484,
  "files": 827,
  "bytes": 477503211,
  "records": [
@@ -5440,7 +5440,7 @@
      "file": "JoCo_AIMS/9e7f394c28f6_3.geojson.gz",
      "features": 3000,
      "state": "PULLED",
-     "truncated": "3,000 of 7,760 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "3,000 of 7,760 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "state": "PULLED",
@@ -7532,7 +7532,7 @@
      "file": "JoCo_AIMS/7cb28cd1e295_28.geojson.gz",
      "features": 1000,
      "state": "PULLED",
-     "truncated": "1,000 of 8,235 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,000 of 8,235 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     },
     {
      "layer_id": 29,
@@ -8738,7 +8738,7 @@
      "file": "JoCo_AIMS/1fed6b2c1f5e_12.geojson.gz",
      "features": 1000,
      "state": "PULLED",
-     "truncated": "1,000 of 1,141 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,000 of 1,141 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     },
     {
      "layer_id": 13,
@@ -9124,7 +9124,7 @@
      "file": "JoCo_AIMS/1fed6b2c1f5e_17.geojson.gz",
      "features": 1000,
      "state": "PULLED",
-     "truncated": "1,000 of 8,660 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,000 of 8,660 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     },
     {
      "layer_id": 18,
@@ -9628,7 +9628,7 @@
      "file": "JoCo_AIMS/34baee71b1ba_0.geojson.gz",
      "features": 2000,
      "state": "PULLED",
-     "truncated": "2,000 of 14,949 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,000 of 14,949 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "state": "PULLED",
@@ -10296,7 +10296,7 @@
      "file": "JoCo_AIMS/8694f625edc5_0.geojson.gz",
      "features": 2000,
      "state": "PULLED",
-     "truncated": "2,000 of 14,949 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,000 of 14,949 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "state": "PULLED",
@@ -14908,7 +14908,7 @@
      "file": "JoCo_AIMS/50800701086c_1.geojson.gz",
      "features": 2000,
      "state": "PULLED",
-     "truncated": "2,000 of 6,295 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,000 of 6,295 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     },
     {
      "layer_id": 54,
@@ -15073,7 +15073,7 @@
      "file": "JoCo_AIMS/50800701086c_54.geojson.gz",
      "features": 2000,
      "state": "PULLED",
-     "truncated": "2,000 of 4,670 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,000 of 4,670 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     },
     {
      "layer_id": 55,
@@ -15643,7 +15643,7 @@
      "file": "JoCo_AIMS/50800701086c_55.geojson.gz",
      "features": 2000,
      "state": "PULLED",
-     "truncated": "2,000 of 4,670 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,000 of 4,670 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "state": "PULLED",
@@ -16411,7 +16411,7 @@
      "file": "JoCo_AIMS/490b7c388d34_11.geojson.gz",
      "features": 1000,
      "state": "PULLED",
-     "truncated": "1,000 of 8,660 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,000 of 8,660 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     },
     {
      "layer_id": 12,
@@ -16671,7 +16671,7 @@
      "file": "JoCo_AIMS/490b7c388d34_15.geojson.gz",
      "features": 1000,
      "state": "PULLED",
-     "truncated": "1,000 of 1,141 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,000 of 1,141 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     },
     {
      "layer_id": 16,
@@ -17021,7 +17021,7 @@
      "file": "JoCo_AIMS/490b7c388d34_19.geojson.gz",
      "features": 1000,
      "state": "PULLED",
-     "truncated": "1,000 of 5,446 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,000 of 5,446 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     },
     {
      "layer_id": 20,
@@ -17867,7 +17867,7 @@
      "file": "JoCo_AIMS/b560ed739412_1.geojson.gz",
      "features": 2000,
      "state": "PULLED",
-     "truncated": "2,000 of 6,295 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,000 of 6,295 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     },
     {
      "layer_id": 54,
@@ -18037,7 +18037,7 @@
      "file": "JoCo_AIMS/b560ed739412_54.geojson.gz",
      "features": 2000,
      "state": "PULLED",
-     "truncated": "2,000 of 4,670 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,000 of 4,670 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     },
     {
      "layer_id": 55,
@@ -18612,7 +18612,7 @@
      "file": "JoCo_AIMS/b560ed739412_55.geojson.gz",
      "features": 2000,
      "state": "PULLED",
-     "truncated": "2,000 of 4,670 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,000 of 4,670 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "state": "PULLED",
@@ -18778,7 +18778,7 @@
      "file": "JoCo_AIMS/3406ea26bd91_0.geojson.gz",
      "features": 2000,
      "state": "PULLED",
-     "truncated": "2,000 of 10,419 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,000 of 10,419 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "state": "PULLED",
@@ -19084,7 +19084,7 @@
      "count": 579,
      "bytes": 57657,
      "file": "KCMO/f71c36f7cf74.json.gz",
-     "features": 0,
+     "features": 579,
      "state": "PULLED",
      "fields": [
       {
@@ -19223,8 +19223,7 @@
        "name": "total_employment_2040",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 579 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -19310,7 +19309,7 @@
      "count": 11713,
      "bytes": 373624,
      "file": "KCMO/a2abfeaa8936.json.gz",
-     "features": 0,
+     "features": 11713,
      "state": "PULLED",
      "fields": [
       {
@@ -19385,8 +19384,7 @@
        "name": "byadopted_adopted_budget",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 11,713 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -19404,7 +19402,7 @@
      "count": 574,
      "bytes": 411564,
      "file": "KCMO/fd8af4ac5f2d.json.gz",
-     "features": 0,
+     "features": 574,
      "state": "PULLED",
      "fields": [
       {
@@ -20251,8 +20249,7 @@
        "name": "total_persons_among_whom_1",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 574 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -20473,7 +20470,7 @@
      "file": "JoCo_AIMS/e242ba597be8_0.geojson.gz",
      "features": 1000,
      "state": "PULLED",
-     "truncated": "1,000 of 3,458 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,000 of 3,458 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     },
     {
      "layer_id": 1,
@@ -20570,7 +20567,7 @@
      "count": 574,
      "bytes": 256524,
      "file": "KCMO/2fe888d56916.json.gz",
-     "features": 0,
+     "features": 574,
      "state": "PULLED",
      "fields": [
       {
@@ -21137,8 +21134,7 @@
        "name": "average_rent",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 574 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -21156,7 +21152,7 @@
      "count": 574,
      "bytes": 412825,
      "file": "KCMO/26ed704f4377.json.gz",
-     "features": 0,
+     "features": 574,
      "state": "PULLED",
      "fields": [
       {
@@ -21995,8 +21991,7 @@
        "name": "total_persons_among_whom_1",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 574 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -22014,7 +22009,7 @@
      "count": 15538,
      "bytes": 1988390,
      "file": "KCMO/2ba617d2ee01.json.gz",
-     "features": 0,
+     "features": 15538,
      "state": "PULLED",
      "fields": [
       {
@@ -22129,8 +22124,7 @@
        "name": "location",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 15,538 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -22148,10 +22142,9 @@
      "count": 551,
      "bytes": 54,
      "file": "KCMO/0a3e65f76935.json.gz",
-     "features": 0,
+     "features": 551,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 551 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -24412,7 +24405,7 @@
      "count": 551,
      "bytes": 14564,
      "file": "KCMO/dc4daa222b61.json.gz",
-     "features": 0,
+     "features": 551,
      "state": "PULLED",
      "fields": [
       {
@@ -24455,8 +24448,7 @@
        "name": "households_2040",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 551 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -24474,7 +24466,7 @@
      "count": 153,
      "bytes": 26320,
      "file": "KCMO/122211a4393e.json.gz",
-     "features": 0,
+     "features": 153,
      "state": "PULLED",
      "fields": [
       {
@@ -24653,8 +24645,7 @@
        "name": "weather_station_name",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 153 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -24672,7 +24663,7 @@
      "count": 500,
      "bytes": 33963,
      "file": "KCMO/c36d144ed597.json.gz",
-     "features": 0,
+     "features": 500,
      "state": "PULLED",
      "fields": [
       {
@@ -24747,8 +24738,7 @@
        "name": "energy_star_score",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 500 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -24766,7 +24756,7 @@
      "count": 174,
      "bytes": 26341,
      "file": "KCMO/43400fea9fa8.json.gz",
-     "features": 0,
+     "features": 174,
      "state": "PULLED",
      "fields": [
       {
@@ -24945,8 +24935,7 @@
        "name": "weather_station_name",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 174 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -24964,7 +24953,7 @@
      "count": 595,
      "bytes": 36893,
      "file": "KCMO/cab1e3f22bfb.json.gz",
-     "features": 0,
+     "features": 595,
      "state": "PULLED",
      "fields": [
       {
@@ -25011,8 +25000,7 @@
        "name": "property_gfa_calculated_1",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 595 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -25030,7 +25018,7 @@
      "count": 551,
      "bytes": 25632,
      "file": "KCMO/9fb26c7b0542.json.gz",
-     "features": 0,
+     "features": 551,
      "state": "PULLED",
      "fields": [
       {
@@ -25097,8 +25085,7 @@
        "name": "employment_2050",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 551 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -25116,7 +25103,7 @@
      "count": 141,
      "bytes": 22796,
      "file": "KCMO/bc5edfb2ba6a.json.gz",
-     "features": 0,
+     "features": 141,
      "state": "PULLED",
      "fields": [
       {
@@ -25303,8 +25290,7 @@
        "name": "weather_station_name",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 141 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -25422,7 +25408,7 @@
      "count": 772,
      "bytes": 57065,
      "file": "KCMO/a4b04dddb433.json.gz",
-     "features": 0,
+     "features": 772,
      "state": "PULLED",
      "fields": [
       {
@@ -25513,8 +25499,7 @@
        "name": "water_use_all_water_sources",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 772 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -25532,7 +25517,7 @@
      "count": 138,
      "bytes": 23167,
      "file": "KCMO/5f656d8b5034.json.gz",
-     "features": 0,
+     "features": 138,
      "state": "PULLED",
      "fields": [
       {
@@ -25723,8 +25708,7 @@
        "name": "weather_station_name",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 138 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -25742,7 +25726,7 @@
      "count": 354,
      "bytes": 20105,
      "file": "KCMO/d559d7ace41b.json.gz",
-     "features": 0,
+     "features": 354,
      "state": "PULLED",
      "fields": [
       {
@@ -25833,8 +25817,7 @@
        "name": "water_use_all_water_sources",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 354 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -25852,7 +25835,7 @@
      "count": 1465,
      "bytes": 95311,
      "file": "KCMO/a875a2561ba1.json.gz",
-     "features": 0,
+     "features": 1465,
      "state": "PULLED",
      "fields": [
       {
@@ -25943,8 +25926,7 @@
        "name": "water_use_all_water_sources",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 1,465 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -25962,7 +25944,7 @@
      "count": 17323,
      "bytes": 1009513,
      "file": "KCMO/99ff49cb92a6.json.gz",
-     "features": 0,
+     "features": 17323,
      "state": "PULLED",
      "fields": [
       {
@@ -26077,8 +26059,7 @@
        "name": "applicant_representative",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 17,323 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -26096,7 +26077,7 @@
      "count": 498,
      "bytes": 26555,
      "file": "KCMO/5c6984874bfb.json.gz",
-     "features": 0,
+     "features": 498,
      "state": "PULLED",
      "fields": [
       {
@@ -26207,8 +26188,7 @@
        "name": "resacres",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 498 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -26243,7 +26223,7 @@
      "count": 1441,
      "bytes": 88136,
      "file": "KCMO/be8e3e0661d3.json.gz",
-     "features": 0,
+     "features": 1441,
      "state": "PULLED",
      "fields": [
       {
@@ -26334,8 +26314,7 @@
        "name": "water_use_all_water_sources",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 1,441 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -26424,7 +26403,7 @@
      "count": 112,
      "bytes": 11040,
      "file": "KCMO/cf187b93fc0e.json.gz",
-     "features": 0,
+     "features": 112,
      "state": "PULLED",
      "fields": [
       {
@@ -26547,8 +26526,7 @@
        "name": "abandonment_rate",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 112 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -26668,7 +26646,7 @@
      "count": 7721,
      "bytes": 739918,
      "file": "KCMO/8a337bb75a5d.json.gz",
-     "features": 0,
+     "features": 7721,
      "state": "PULLED",
      "fields": [
       {
@@ -26715,8 +26693,7 @@
        "name": "additional_questions",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 7,721 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -26734,10 +26711,9 @@
      "count": 80,
      "bytes": 45,
      "file": "KCMO/ba456a100346.json.gz",
-     "features": 0,
+     "features": 80,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 80 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -26765,7 +26741,7 @@
      "count": 80,
      "bytes": 22827,
      "file": "KCMO/4bd3c93b37cb.json.gz",
-     "features": 0,
+     "features": 80,
      "state": "PULLED",
      "fields": [
       {
@@ -26804,8 +26780,7 @@
        "name": "shape_len",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 80 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -26823,7 +26798,7 @@
      "count": 854,
      "bytes": 180732,
      "file": "KCMO/31d8c1f1e875.json.gz",
-     "features": 0,
+     "features": 854,
      "state": "PULLED",
      "fields": [
       {
@@ -26834,8 +26809,7 @@
        "name": "i_can_find_employment_when",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 854 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -26853,7 +26827,7 @@
      "count": 854,
      "bytes": 154529,
      "file": "KCMO/5eb71b21b82f.json.gz",
-     "features": 0,
+     "features": 854,
      "state": "PULLED",
      "fields": [
       {
@@ -27184,8 +27158,7 @@
        "name": "are_you_involved_with_economic",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 854 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -27296,7 +27269,7 @@
      "file": "JoCo_AIMS/59b00a550288_0.geojson.gz",
      "features": 2000,
      "state": "PULLED",
-     "truncated": "2,000 of 6,589 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,000 of 6,589 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     },
     {
      "layer_id": 10,
@@ -27583,7 +27556,7 @@
      "count": 1348,
      "bytes": 85394,
      "file": "KCMO/2f40170c1ed1.json.gz",
-     "features": 0,
+     "features": 1348,
      "state": "PULLED",
      "fields": [
       {
@@ -27614,8 +27587,7 @@
        "name": "aed_physical_location",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 1,348 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -27643,7 +27615,7 @@
      "count": 19160,
      "bytes": 1124202,
      "file": "KCMO/1db94fa6a46e.json.gz",
-     "features": 0,
+     "features": 19160,
      "state": "PULLED",
      "fields": [
       {
@@ -27762,8 +27734,7 @@
        "name": "parcel_id_no",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 19,160 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -27801,7 +27772,7 @@
      "count": 66,
      "bytes": 863,
      "file": "KCMO/6483af48cb83.json.gz",
-     "features": 0,
+     "features": 66,
      "state": "PULLED",
      "fields": [
       {
@@ -27824,8 +27795,7 @@
        "name": "median_time_minutes_to_respond_on_complaint",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 66 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -27853,10 +27823,9 @@
      "count": 18,
      "bytes": 45,
      "file": "KCMO/88e283174254.json.gz",
-     "features": 0,
+     "features": 18,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 18 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -27874,7 +27843,7 @@
      "count": 50,
      "bytes": 1128,
      "file": "KCMO/621d8fc01a1b.json.gz",
-     "features": 0,
+     "features": 50,
      "state": "PULLED",
      "fields": [
       {
@@ -27901,8 +27870,7 @@
        "name": "stations",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 50 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -27920,7 +27888,7 @@
      "count": 18,
      "bytes": 168003,
      "file": "KCMO/42d8e54134f8.json.gz",
-     "features": 0,
+     "features": 18,
      "state": "PULLED",
      "fields": [
       {
@@ -27967,8 +27935,7 @@
        "name": "notes",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 18 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -27986,7 +27953,7 @@
      "count": 1796,
      "bytes": 77980,
      "file": "KCMO/a373d92a440e.json.gz",
-     "features": 0,
+     "features": 1796,
      "state": "PULLED",
      "fields": [
       {
@@ -28025,8 +27992,7 @@
        "name": ":@computed_region_w4hf_t6bp",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 1,796 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -28044,7 +28010,7 @@
      "count": 6,
      "bytes": 194,
      "file": "KCMO/4292a469262b.json.gz",
-     "features": 0,
+     "features": 6,
      "state": "PULLED",
      "fields": [
       {
@@ -28055,8 +28021,7 @@
        "name": "percent_of_budget",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 6 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -28091,7 +28056,7 @@
      "count": 360,
      "bytes": 78547,
      "file": "KCMO/387fe454848c.json.gz",
-     "features": 0,
+     "features": 360,
      "state": "PULLED",
      "fields": [
       {
@@ -28122,8 +28087,7 @@
        "name": "answer",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 360 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -28141,7 +28105,7 @@
      "count": 6,
      "bytes": 298,
      "file": "KCMO/80c4c9a818ef.json.gz",
-     "features": 0,
+     "features": 6,
      "state": "PULLED",
      "fields": [
       {
@@ -28164,8 +28128,7 @@
        "name": "dissatisfied",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 6 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -28183,7 +28146,7 @@
      "count": 16,
      "bytes": 206,
      "file": "KCMO/d2fdfd1bef26.json.gz",
-     "features": 0,
+     "features": 16,
      "state": "PULLED",
      "fields": [
       {
@@ -28194,8 +28157,7 @@
        "name": "count_distinct_case_id",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 16 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -28213,10 +28175,9 @@
      "count": 28245,
      "bytes": 142,
      "file": "KCMO/e68a32709289.json.gz",
-     "features": 0,
+     "features": 28245,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 28,245 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -28234,7 +28195,7 @@
      "count": 7,
      "bytes": 323,
      "file": "KCMO/f68a5c4787ab.json.gz",
-     "features": 0,
+     "features": 7,
      "state": "PULLED",
      "fields": [
       {
@@ -28261,8 +28222,7 @@
        "name": "very_dissatsified",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 7 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -28280,7 +28240,7 @@
      "count": 5518,
      "bytes": 140079,
      "file": "KCMO/447f4a464d99.json.gz",
-     "features": 0,
+     "features": 5518,
      "state": "PULLED",
      "fields": [
       {
@@ -28311,8 +28271,7 @@
        "name": "detailed_category",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 5,518 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -28330,7 +28289,7 @@
      "count": 28245,
      "bytes": 1066502,
      "file": "KCMO/89d4f60fce5c.json.gz",
-     "features": 0,
+     "features": 28245,
      "state": "PULLED",
      "fields": [
       {
@@ -28353,8 +28312,7 @@
        "name": "valid_license_for",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 28,245 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -28372,7 +28330,7 @@
      "count": 5741,
      "bytes": 146555,
      "file": "KCMO/0a30ee711fd2.json.gz",
-     "features": 0,
+     "features": 5741,
      "state": "PULLED",
      "fields": [
       {
@@ -28403,8 +28361,7 @@
        "name": "detailed_category",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 5,741 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -28422,7 +28379,7 @@
      "count": 5328,
      "bytes": 134362,
      "file": "KCMO/2d3d2c3e80db.json.gz",
-     "features": 0,
+     "features": 5328,
      "state": "PULLED",
      "fields": [
       {
@@ -28509,8 +28466,7 @@
        "name": "adopted_2017_18",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 5,328 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -28528,7 +28484,7 @@
      "count": 7,
      "bytes": 280,
      "file": "KCMO/5f4aa0a355d8.json.gz",
-     "features": 0,
+     "features": 7,
      "state": "PULLED",
      "fields": [
       {
@@ -28555,8 +28511,7 @@
        "name": "fy2017",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 7 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -30977,7 +30932,7 @@
      "count": 8,
      "bytes": 1252,
      "file": "KCMO/ff0242a48375.json.gz",
-     "features": 0,
+     "features": 8,
      "state": "PULLED",
      "fields": [
       {
@@ -31124,8 +31079,7 @@
        "name": "total",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 8 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -31143,7 +31097,7 @@
      "count": 8,
      "bytes": 143,
      "file": "KCMO/7c31f77d9d81.json.gz",
-     "features": 0,
+     "features": 8,
      "state": "PULLED",
      "fields": [
       {
@@ -31154,8 +31108,7 @@
        "name": "percent_of_respondents_who",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 8 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -31173,10 +31126,9 @@
      "count": 5848,
      "bytes": 76,
      "file": "KCMO/c2264fe3fc2b.json.gz",
-     "features": 0,
+     "features": 5848,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 5,848 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -31194,7 +31146,7 @@
      "count": 6,
      "bytes": 85833,
      "file": "KCMO/cc3c12006c00.json.gz",
-     "features": 0,
+     "features": 6,
      "state": "PULLED",
      "fields": [
       {
@@ -31229,8 +31181,7 @@
        "name": "atlargetit",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 6 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -31275,7 +31226,7 @@
      "count": 230,
      "bytes": 53470,
      "file": "KCMO/895f840b7695.json.gz",
-     "features": 0,
+     "features": 230,
      "state": "PULLED",
      "fields": [
       {
@@ -31306,8 +31257,7 @@
        "name": "contact_information",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 230 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -31325,7 +31275,7 @@
      "count": 15255,
      "bytes": 2461325,
      "file": "KCMO/712fe451f075.json.gz",
-     "features": 0,
+     "features": 15255,
      "state": "PULLED",
      "fields": [
       {
@@ -31384,8 +31334,7 @@
        "name": "dispatcher",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 15,255 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -31403,10 +31352,9 @@
      "count": 2358,
      "bytes": 66,
      "file": "KCMO/248298a72a40.json.gz",
-     "features": 0,
+     "features": 2358,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 2,358 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -31424,7 +31372,7 @@
      "count": 1793,
      "bytes": 37849,
      "file": "KCMO/87f8e9f50384.json.gz",
-     "features": 0,
+     "features": 1793,
      "state": "PULLED",
      "fields": [
       {
@@ -31491,8 +31439,7 @@
        "name": "adopted",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 1,793 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -31510,7 +31457,7 @@
      "count": 209,
      "bytes": 549522,
      "file": "KCMO/569ed65c393c.json.gz",
-     "features": 0,
+     "features": 209,
      "state": "PULLED",
      "fields": [
       {
@@ -31681,8 +31628,7 @@
        "name": ":@computed_region_kk66_ngf4",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 209 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -31700,7 +31646,7 @@
      "count": 80,
      "bytes": 2552,
      "file": "KCMO/b941b7dd3690.json.gz",
-     "features": 0,
+     "features": 80,
      "state": "PULLED",
      "fields": [
       {
@@ -31711,8 +31657,7 @@
        "name": "_2013_mtco2e",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 80 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -31730,7 +31675,7 @@
      "count": 6,
      "bytes": 269,
      "file": "KCMO/91d31642b16f.json.gz",
-     "features": 0,
+     "features": 6,
      "state": "PULLED",
      "fields": [
       {
@@ -31757,8 +31702,7 @@
        "name": "miles_of_sewer_main_replacement_in_progress",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 6 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -31776,7 +31720,7 @@
      "count": 325,
      "bytes": 14598,
      "file": "KCMO/0496e0cae1fd.json.gz",
-     "features": 0,
+     "features": 325,
      "state": "PULLED",
      "fields": [
       {
@@ -31807,8 +31751,7 @@
        "name": "count_column_for_open_data_rollups",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 325 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -31843,10 +31786,9 @@
      "count": 73,
      "bytes": 45,
      "file": "KCMO/dde57b0553aa.json.gz",
-     "features": 0,
+     "features": 73,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 73 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -31864,7 +31806,7 @@
      "count": 27,
      "bytes": 1345,
      "file": "KCMO/be2a6f8e7092.json.gz",
-     "features": 0,
+     "features": 27,
      "state": "PULLED",
      "fields": [
       {
@@ -31891,8 +31833,7 @@
        "name": "_2013",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 27 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -31910,7 +31851,7 @@
      "count": 28245,
      "bytes": 1756894,
      "file": "KCMO/8e2e0178049a.json.gz",
-     "features": 0,
+     "features": 28245,
      "state": "PULLED",
      "fields": [
       {
@@ -31965,8 +31906,7 @@
        "name": ":@computed_region_w4hf_t6bp",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 28,245 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -31984,7 +31924,7 @@
      "count": 73,
      "bytes": 137267,
      "file": "KCMO/e0069e23d1b5.json.gz",
-     "features": 0,
+     "features": 73,
      "state": "PULLED",
      "fields": [
       {
@@ -32007,8 +31947,7 @@
        "name": "shape_len",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 73 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -32026,7 +31965,7 @@
      "count": 343,
      "bytes": 15330,
      "file": "KCMO/eb294454b0d0.json.gz",
-     "features": 0,
+     "features": 343,
      "state": "PULLED",
      "fields": [
       {
@@ -32041,8 +31980,7 @@
        "name": "garden_address",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 343 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -32087,7 +32025,7 @@
      "count": 10,
      "bytes": 494,
      "file": "KCMO/f42f1874b81b.json.gz",
-     "features": 0,
+     "features": 10,
      "state": "PULLED",
      "fields": [
       {
@@ -32126,8 +32064,7 @@
        "name": "sum_of_estimate_worked_at_home",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 10 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -32185,7 +32122,7 @@
      "count": 2,
      "bytes": 177,
      "file": "KCMO/23679d48fe65.json.gz",
-     "features": 0,
+     "features": 2,
      "state": "PULLED",
      "fields": [
       {
@@ -32204,8 +32141,7 @@
        "name": "average_days_to_close",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 2 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -32223,7 +32159,7 @@
      "count": 2358,
      "bytes": 1328435,
      "file": "KCMO/d5d14321bb66.json.gz",
-     "features": 0,
+     "features": 2358,
      "state": "PULLED",
      "fields": [
       {
@@ -32302,8 +32238,7 @@
        "name": "shape_len",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 2,358 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -32331,10 +32266,9 @@
      "count": 8,
      "bytes": 44,
      "file": "KCMO/eb15d3ddef17.json.gz",
-     "features": 0,
+     "features": 8,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 8 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -32426,7 +32360,7 @@
      "count": 5,
      "bytes": 163,
      "file": "KCMO/3f9e03147ad4.json.gz",
-     "features": 0,
+     "features": 5,
      "state": "PULLED",
      "fields": [
       {
@@ -32437,8 +32371,7 @@
        "name": "number_of_buildings",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 5 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -32490,7 +32423,7 @@
      "count": 8,
      "bytes": 107208,
      "file": "KCMO/1ad5ab6428a6.json.gz",
-     "features": 0,
+     "features": 8,
      "state": "PULLED",
      "fields": [
       {
@@ -32513,8 +32446,7 @@
        "name": "shape_len",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 8 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -32562,10 +32494,9 @@
      "count": 181,
      "bytes": 48,
      "file": "KCMO/eb9add3e4dd0.json.gz",
-     "features": 0,
+     "features": 181,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 181 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -32583,7 +32514,7 @@
      "count": 181,
      "bytes": 7809,
      "file": "KCMO/c8dc3688eefd.json.gz",
-     "features": 0,
+     "features": 181,
      "state": "PULLED",
      "fields": [
       {
@@ -32650,8 +32581,7 @@
        "name": "client_testimonial",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 181 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -33178,10 +33108,9 @@
      "count": 181,
      "bytes": 48,
      "file": "KCMO/971d09fc2a4a.json.gz",
-     "features": 0,
+     "features": 181,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 181 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -33199,10 +33128,9 @@
      "count": 181,
      "bytes": 48,
      "file": "KCMO/dfca3c810a8c.json.gz",
-     "features": 0,
+     "features": 181,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 181 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -33230,7 +33158,7 @@
      "count": 1912,
      "bytes": 103298,
      "file": "KCMO/4cad99ddfdda.json.gz",
-     "features": 0,
+     "features": 1912,
      "state": "PULLED",
      "fields": [
       {
@@ -33321,8 +33249,7 @@
        "name": ":@computed_region_qizh_zmq5",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 1,912 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -33357,10 +33284,9 @@
      "count": 181,
      "bytes": 48,
      "file": "KCMO/e1d102006178.json.gz",
-     "features": 0,
+     "features": 181,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 181 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -33378,10 +33304,9 @@
      "count": 181,
      "bytes": 48,
      "file": "KCMO/428d60e5e27f.json.gz",
-     "features": 0,
+     "features": 181,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 181 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -33399,10 +33324,9 @@
      "count": 181,
      "bytes": 48,
      "file": "KCMO/d35447bd79e7.json.gz",
-     "features": 0,
+     "features": 181,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 181 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -33420,7 +33344,7 @@
      "count": 11,
      "bytes": 158,
      "file": "KCMO/805503a9f34d.json.gz",
-     "features": 0,
+     "features": 11,
      "state": "PULLED",
      "fields": [
       {
@@ -33431,8 +33355,7 @@
        "name": "energy_star_certified_homes",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 11 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -33450,7 +33373,7 @@
      "count": 271,
      "bytes": 6596,
      "file": "KCMO/f8bbe0c77781.json.gz",
-     "features": 0,
+     "features": 271,
      "state": "PULLED",
      "fields": [
       {
@@ -33533,8 +33456,7 @@
        "name": "homes_labeled_in_2015",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 271 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -33552,10 +33474,9 @@
      "count": 3,
      "bytes": 44,
      "file": "KCMO/dc8c8d294037.json.gz",
-     "features": 0,
+     "features": 3,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 3 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -33573,7 +33494,7 @@
      "count": 156,
      "bytes": 25228,
      "file": "KCMO/61e7ae14e8f7.json.gz",
-     "features": 0,
+     "features": 156,
      "state": "PULLED",
      "fields": [
       {
@@ -33724,8 +33645,7 @@
        "name": ":@computed_region_w4hf_t6bp",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 156 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -33743,7 +33663,7 @@
      "count": 141,
      "bytes": 27308,
      "file": "KCMO/b95da12cb560.json.gz",
-     "features": 0,
+     "features": 141,
      "state": "PULLED",
      "fields": [
       {
@@ -33914,8 +33834,7 @@
        "name": ":@computed_region_w4hf_t6bp",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 141 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -33933,10 +33852,9 @@
      "count": 34,
      "bytes": 45,
      "file": "KCMO/51ca046db732.json.gz",
-     "features": 0,
+     "features": 34,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 34 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -33954,7 +33872,7 @@
      "count": 3,
      "bytes": 35231,
      "file": "KCMO/a9723abebd00.json.gz",
-     "features": 0,
+     "features": 3,
      "state": "PULLED",
      "fields": [
       {
@@ -33977,8 +33895,7 @@
        "name": "shape_len",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 3 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -33996,7 +33913,7 @@
      "count": 34,
      "bytes": 1353,
      "file": "KCMO/fbf83f5a024e.json.gz",
-     "features": 0,
+     "features": 34,
      "state": "PULLED",
      "fields": [
       {
@@ -34019,8 +33936,7 @@
        "name": "county",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 34 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -34038,7 +33954,7 @@
      "count": 15,
      "bytes": 9479,
      "file": "KCMO/e30859919248.json.gz",
-     "features": 0,
+     "features": 15,
      "state": "PULLED",
      "fields": [
       {
@@ -34365,8 +34281,7 @@
        "name": "nfpa_survey_of_firefighters_per_1000_population_low_range",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 15 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -34384,7 +34299,7 @@
      "count": 44,
      "bytes": 2878,
      "file": "KCMO/ac6eb5688a0e.json.gz",
-     "features": 0,
+     "features": 44,
      "state": "PULLED",
      "fields": [
       {
@@ -34427,8 +34342,7 @@
        "name": ":@computed_region_w4hf_t6bp",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 44 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -34463,7 +34377,7 @@
      "count": 3,
      "bytes": 131,
      "file": "KCMO/cb7de4a4ea82.json.gz",
-     "features": 0,
+     "features": 3,
      "state": "PULLED",
      "fields": [
       {
@@ -34478,8 +34392,7 @@
        "name": "percentage_food_insecure_clay_county",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 3 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -34514,7 +34427,7 @@
      "count": 27,
      "bytes": 11928,
      "file": "KCMO/d4c58aaf6f78.json.gz",
-     "features": 0,
+     "features": 27,
      "state": "PULLED",
      "fields": [
       {
@@ -34729,8 +34642,7 @@
        "name": "total_commitments",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 27 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -34748,7 +34660,7 @@
      "count": 12261,
      "bytes": 150149,
      "file": "KCMO/5637761323f2.json.gz",
-     "features": 0,
+     "features": 12261,
      "state": "PULLED",
      "fields": [
       {
@@ -34795,8 +34707,7 @@
        "name": "byadopted_adopted_budget_2017_18_budget_data",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 12,261 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -34814,7 +34725,7 @@
      "count": 2401,
      "bytes": 79821,
      "file": "KCMO/d56ba4d135d4.json.gz",
-     "features": 0,
+     "features": 2401,
      "state": "PULLED",
      "fields": [
       {
@@ -34885,8 +34796,7 @@
        "name": "adopted",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 2,401 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -34904,7 +34814,7 @@
      "count": 27095,
      "bytes": 366716,
      "file": "KCMO/43d90bfd9d9e.json.gz",
-     "features": 0,
+     "features": 27095,
      "state": "PULLED",
      "fields": [
       {
@@ -34967,8 +34877,7 @@
        "name": "adopted",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 27,095 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -34986,7 +34895,7 @@
      "count": 33,
      "bytes": 2533,
      "file": "KCMO/a944622d0e92.json.gz",
-     "features": 0,
+     "features": 33,
      "state": "PULLED",
      "fields": [
       {
@@ -35013,8 +34922,7 @@
        "name": "_2013_of_total_mtco2e",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 33 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -35032,7 +34940,7 @@
      "count": 141,
      "bytes": 4672,
      "file": "KCMO/9aa88706a627.json.gz",
-     "features": 0,
+     "features": 141,
      "state": "PULLED",
      "fields": [
       {
@@ -35055,8 +34963,7 @@
        "name": "_2013",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 141 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -35074,7 +34981,7 @@
      "count": 7703,
      "bytes": 500261,
      "file": "KCMO/fa1d92c195f0.json.gz",
-     "features": 0,
+     "features": 7703,
      "state": "PULLED",
      "fields": [
       {
@@ -35181,8 +35088,7 @@
        "name": "parcel_id_no",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 7,703 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -35217,7 +35123,7 @@
      "count": 3,
      "bytes": 136,
      "file": "KCMO/771e7d261d42.json.gz",
-     "features": 0,
+     "features": 3,
      "state": "PULLED",
      "fields": [
       {
@@ -35228,8 +35134,7 @@
        "name": "total_mtco2e",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 3 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -35264,7 +35169,7 @@
      "count": 3,
      "bytes": 130,
      "file": "KCMO/4bb4534a11e4.json.gz",
-     "features": 0,
+     "features": 3,
      "state": "PULLED",
      "fields": [
       {
@@ -35275,8 +35180,7 @@
        "name": "total_mtco2e",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 3 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -35294,7 +35198,7 @@
      "count": 57,
      "bytes": 4995,
      "file": "KCMO/9b543dc4fe13.json.gz",
-     "features": 0,
+     "features": 57,
      "state": "PULLED",
      "fields": [
       {
@@ -35429,8 +35333,7 @@
        "name": "parcel_id_no",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 57 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -35465,7 +35368,7 @@
      "count": 4,
      "bytes": 231,
      "file": "KCMO/769e686b0587.json.gz",
-     "features": 0,
+     "features": 4,
      "state": "PULLED",
      "fields": [
       {
@@ -35480,8 +35383,7 @@
        "name": "after_post_may_1_2024",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 4 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -35499,7 +35401,7 @@
      "count": 3761,
      "bytes": 232391,
      "file": "KCMO/4d18763481e4.json.gz",
-     "features": 0,
+     "features": 3761,
      "state": "PULLED",
      "fields": [
       {
@@ -35618,8 +35520,7 @@
        "name": "parcel_id_no",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 3,761 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -35647,10 +35548,9 @@
      "count": 468,
      "bytes": 53,
      "file": "KCMO/4cea90e1ebcc.json.gz",
-     "features": 0,
+     "features": 468,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 468 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -35668,7 +35568,7 @@
      "count": 12893,
      "bytes": 913206,
      "file": "KCMO/7e0436a0af79.json.gz",
-     "features": 0,
+     "features": 12893,
      "state": "PULLED",
      "fields": [
       {
@@ -35775,8 +35675,7 @@
        "name": "parcel_id_no",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 12,893 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -35794,7 +35693,7 @@
      "count": 859,
      "bytes": 58420,
      "file": "KCMO/5245cbec9ea4.json.gz",
-     "features": 0,
+     "features": 859,
      "state": "PULLED",
      "fields": [
       {
@@ -35913,8 +35812,7 @@
        "name": "parcel_id_no",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 859 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -35932,7 +35830,7 @@
      "count": 162,
      "bytes": 5904,
      "file": "KCMO/1984ff0e0b21.json.gz",
-     "features": 0,
+     "features": 162,
      "state": "PULLED",
      "fields": [
       {
@@ -35975,8 +35873,7 @@
        "name": "comments",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 162 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -35994,10 +35891,9 @@
      "count": 246,
      "bytes": 48,
      "file": "KCMO/a776c4d5604a.json.gz",
-     "features": 0,
+     "features": 246,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 246 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -36015,7 +35911,7 @@
      "count": 29647,
      "bytes": 463047,
      "file": "KCMO/5f9353ec282c.json.gz",
-     "features": 0,
+     "features": 29647,
      "state": "PULLED",
      "fields": [
       {
@@ -36086,8 +35982,7 @@
        "name": "adopted",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 29,647 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -36122,7 +36017,7 @@
      "count": 246,
      "bytes": 389790,
      "file": "KCMO/c3111270b5ea.json.gz",
-     "features": 0,
+     "features": 246,
      "state": "PULLED",
      "fields": [
       {
@@ -36149,8 +36044,7 @@
        "name": "shape_len",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 246 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -36168,7 +36062,7 @@
      "count": 14,
      "bytes": 1398,
      "file": "KCMO/856244cab0f3.json.gz",
-     "features": 0,
+     "features": 14,
      "state": "PULLED",
      "fields": [
       {
@@ -36235,8 +36129,7 @@
        "name": ":@computed_region_qizh_zmq5",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 14 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -36254,7 +36147,7 @@
      "count": 185,
      "bytes": 9332,
      "file": "KCMO/02fbf10e3ede.json.gz",
-     "features": 0,
+     "features": 185,
      "state": "PULLED",
      "fields": [
       {
@@ -36293,8 +36186,7 @@
        "name": ":@computed_region_kk66_ngf4",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 185 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -36312,10 +36204,9 @@
      "count": 106,
      "bytes": 46,
      "file": "KCMO/3bfeb4bf74b0.json.gz",
-     "features": 0,
+     "features": 106,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 106 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -36333,7 +36224,7 @@
      "count": 106,
      "bytes": 40285,
      "file": "KCMO/1d2036bce0f2.json.gz",
-     "features": 0,
+     "features": 106,
      "state": "PULLED",
      "fields": [
       {
@@ -36396,8 +36287,7 @@
        "name": "shape_len",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 106 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -36415,7 +36305,7 @@
      "count": 7395,
      "bytes": 651109,
      "file": "KCMO/20cee3ea14b6.json.gz",
-     "features": 0,
+     "features": 7395,
      "state": "PULLED",
      "fields": [
       {
@@ -36478,8 +36368,7 @@
        "name": "last_updated",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 7,395 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -36547,10 +36436,9 @@
      "count": 2467,
      "bytes": 66,
      "file": "KCMO/46fc37aa8195.json.gz",
-     "features": 0,
+     "features": 2467,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 2,467 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -36568,7 +36456,7 @@
      "count": 3566,
      "bytes": 106220,
      "file": "KCMO/6e76f0edec77.json.gz",
-     "features": 0,
+     "features": 3566,
      "state": "PULLED",
      "fields": [
       {
@@ -36591,8 +36479,7 @@
        "name": ":@computed_region_w4hf_t6bp",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 3,566 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -36670,7 +36557,7 @@
      "count": 2467,
      "bytes": 93835,
      "file": "KCMO/f5ab0494a046.json.gz",
-     "features": 0,
+     "features": 2467,
      "state": "PULLED",
      "fields": [
       {
@@ -36733,8 +36620,7 @@
        "name": ":@computed_region_w4hf_t6bp",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 2,467 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -36786,7 +36672,7 @@
      "count": 27914,
      "bytes": 2037125,
      "file": "KCMO/afda026b6e43.json.gz",
-     "features": 0,
+     "features": 27914,
      "state": "PULLED",
      "fields": [
       {
@@ -36885,8 +36771,7 @@
        "name": ":@computed_region_my34_vmp8",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 27,914 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -36904,7 +36789,7 @@
      "count": 3681,
      "bytes": 227615,
      "file": "KCMO/f978a71648fd.json.gz",
-     "features": 0,
+     "features": 3681,
      "state": "PULLED",
      "fields": [
       {
@@ -36955,8 +36840,7 @@
        "name": "location_1",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 3,681 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -36974,7 +36858,7 @@
      "count": 11709,
      "bytes": 309912,
      "file": "KCMO/a0f23bc55413.json.gz",
-     "features": 0,
+     "features": 11709,
      "state": "PULLED",
      "fields": [
       {
@@ -37045,8 +36929,7 @@
        "name": "actual",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 11,709 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -37064,7 +36947,7 @@
      "count": 28245,
      "bytes": 1177936,
      "file": "KCMO/ed968a62aa67.json.gz",
-     "features": 0,
+     "features": 28245,
      "state": "PULLED",
      "fields": [
       {
@@ -37095,8 +36978,7 @@
        "name": "valid_license_for",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 28,245 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -37294,7 +37176,7 @@
      "count": 15895,
      "bytes": 932691,
      "file": "KCMO/955b2dae36cf.json.gz",
-     "features": 0,
+     "features": 15895,
      "state": "PULLED",
      "fields": [
       {
@@ -37349,8 +37231,7 @@
        "name": ":@computed_region_w4hf_t6bp",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 15,895 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -37368,7 +37249,7 @@
      "count": 1793,
      "bytes": 44086,
      "file": "KCMO/dff0ba87e035.json.gz",
-     "features": 0,
+     "features": 1793,
      "state": "PULLED",
      "fields": [
       {
@@ -37443,8 +37324,7 @@
        "name": "adopted",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 1,793 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -37462,7 +37342,7 @@
      "count": 15543,
      "bytes": 381466,
      "file": "KCMO/f8a127366774.json.gz",
-     "features": 0,
+     "features": 15543,
      "state": "PULLED",
      "fields": [
       {
@@ -37533,8 +37413,7 @@
        "name": "actual",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 15,543 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -37552,7 +37431,7 @@
      "count": 126,
      "bytes": 3728,
      "file": "KCMO/a6eb32545317.json.gz",
-     "features": 0,
+     "features": 126,
      "state": "PULLED",
      "fields": [
       {
@@ -37579,8 +37458,7 @@
        "name": ":@computed_region_w4hf_t6bp",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 126 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -37598,7 +37476,7 @@
      "count": 24385,
      "bytes": 452071,
      "file": "KCMO/f012f1747c9d.json.gz",
-     "features": 0,
+     "features": 24385,
      "state": "PULLED",
      "fields": [
       {
@@ -37673,8 +37551,7 @@
        "name": "adopted",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 24,385 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -37692,10 +37569,9 @@
      "count": 6587,
      "bytes": 79,
      "file": "KCMO/feb158838f73.json.gz",
-     "features": 0,
+     "features": 6587,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 6,587 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -37713,10 +37589,9 @@
      "count": 6356,
      "bytes": 77,
      "file": "KCMO/6efb2f0e5bb6.json.gz",
-     "features": 0,
+     "features": 6356,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 6,356 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -37734,10 +37609,9 @@
      "count": 6587,
      "bytes": 79,
      "file": "KCMO/15d4d86d0345.json.gz",
-     "features": 0,
+     "features": 6587,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 6,587 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -37755,7 +37629,7 @@
      "count": 100,
      "bytes": 1170,
      "file": "KCMO/b08d1685de0a.json.gz",
-     "features": 0,
+     "features": 100,
      "state": "PULLED",
      "fields": [
       {
@@ -37798,8 +37672,7 @@
        "name": "cumulative_quarterly_target",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 100 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -37817,7 +37690,7 @@
      "count": 6587,
      "bytes": 487829,
      "file": "KCMO/ed505d7337a4.json.gz",
-     "features": 0,
+     "features": 6587,
      "state": "PULLED",
      "fields": [
       {
@@ -37940,8 +37813,7 @@
        "name": ":@computed_region_qizh_zmq5",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 6,587 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -37959,7 +37831,7 @@
      "count": 73,
      "bytes": 1544,
      "file": "KCMO/b0b6c2774688.json.gz",
-     "features": 0,
+     "features": 73,
      "state": "PULLED",
      "fields": [
       {
@@ -37974,8 +37846,7 @@
        "name": "additional_details",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 73 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -37993,7 +37864,7 @@
      "count": 103,
      "bytes": 3519,
      "file": "KCMO/d757a2d8d7a8.json.gz",
-     "features": 0,
+     "features": 103,
      "state": "PULLED",
      "fields": [
       {
@@ -38024,8 +37895,7 @@
        "name": "location_1",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 103 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -38043,7 +37913,7 @@
      "count": 9,
      "bytes": 185,
      "file": "KCMO/4643f5eaf289.json.gz",
-     "features": 0,
+     "features": 9,
      "state": "PULLED",
      "fields": [
       {
@@ -38058,8 +37928,7 @@
        "name": "date",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 9 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -38077,7 +37946,7 @@
      "count": 5848,
      "bytes": 151689,
      "file": "KCMO/a54f9a481da1.json.gz",
-     "features": 0,
+     "features": 5848,
      "state": "PULLED",
      "fields": [
       {
@@ -38104,8 +37973,7 @@
        "name": "description",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 5,848 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -38143,7 +38011,7 @@
      "count": 6356,
      "bytes": 459851,
      "file": "KCMO/855f1e6cfbb5.json.gz",
-     "features": 0,
+     "features": 6356,
      "state": "PULLED",
      "fields": [
       {
@@ -38222,8 +38090,7 @@
        "name": "date_of_acquisition",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 6,356 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -38241,7 +38108,7 @@
      "count": 1733,
      "bytes": 45673,
      "file": "KCMO/88d0940d3fa4.json.gz",
-     "features": 0,
+     "features": 1733,
      "state": "PULLED",
      "fields": [
       {
@@ -38268,8 +38135,7 @@
        "name": "applicant_name",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 1,733 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -38297,10 +38163,9 @@
      "count": 14,
      "bytes": 45,
      "file": "KCMO/98bdea5eb733.json.gz",
-     "features": 0,
+     "features": 14,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 14 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -38318,10 +38183,9 @@
      "count": 6,
      "bytes": 44,
      "file": "KCMO/680748a4bb2b.json.gz",
-     "features": 0,
+     "features": 6,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 6 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -38339,10 +38203,9 @@
      "count": 6587,
      "bytes": 79,
      "file": "KCMO/83c606591c13.json.gz",
-     "features": 0,
+     "features": 6587,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 6,587 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -38360,10 +38223,9 @@
      "count": 6587,
      "bytes": 79,
      "file": "KCMO/adff0e3cbd1b.json.gz",
-     "features": 0,
+     "features": 6587,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 6,587 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -38391,10 +38253,9 @@
      "count": 6,
      "bytes": 44,
      "file": "KCMO/47df84b1dd56.json.gz",
-     "features": 0,
+     "features": 6,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 6 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -38412,10 +38273,9 @@
      "count": 6356,
      "bytes": 77,
      "file": "KCMO/b084c4fd1306.json.gz",
-     "features": 0,
+     "features": 6356,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 6,356 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -38433,10 +38293,9 @@
      "count": 6587,
      "bytes": 79,
      "file": "KCMO/16f8a44e96ae.json.gz",
-     "features": 0,
+     "features": 6587,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 6,587 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -38522,10 +38381,9 @@
      "count": 71,
      "bytes": 45,
      "file": "KCMO/e87c7a5885b3.json.gz",
-     "features": 0,
+     "features": 71,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 71 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -38543,10 +38401,9 @@
      "count": 112,
      "bytes": 46,
      "file": "KCMO/820bfe76aecc.json.gz",
-     "features": 0,
+     "features": 112,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 112 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -38564,10 +38421,9 @@
      "count": 313,
      "bytes": 50,
      "file": "KCMO/7296d4062441.json.gz",
-     "features": 0,
+     "features": 313,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 313 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -38585,10 +38441,9 @@
      "count": 440,
      "bytes": 53,
      "file": "KCMO/7ba0c5382f0d.json.gz",
-     "features": 0,
+     "features": 440,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 440 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -38623,7 +38478,7 @@
      "count": 313,
      "bytes": 82597,
      "file": "KCMO/ba087a3cc925.json.gz",
-     "features": 0,
+     "features": 313,
      "state": "PULLED",
      "fields": [
       {
@@ -38674,8 +38529,7 @@
        "name": "shape_len",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 313 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -38693,10 +38547,9 @@
      "count": 7,
      "bytes": 44,
      "file": "KCMO/5897cb0af33e.json.gz",
-     "features": 0,
+     "features": 7,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 7 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -38714,7 +38567,7 @@
      "count": 7,
      "bytes": 11633,
      "file": "KCMO/19698642d3f4.json.gz",
-     "features": 0,
+     "features": 7,
      "state": "PULLED",
      "fields": [
       {
@@ -38741,8 +38594,7 @@
        "name": "shape_len",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 7 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -38760,10 +38612,9 @@
      "count": 246,
      "bytes": 48,
      "file": "KCMO/b3b9b4da6437.json.gz",
-     "features": 0,
+     "features": 246,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 246 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -38781,7 +38632,7 @@
      "count": 440,
      "bytes": 306945,
      "file": "KCMO/ce5bd528ad9b.json.gz",
-     "features": 0,
+     "features": 440,
      "state": "PULLED",
      "fields": [
       {
@@ -38924,8 +38775,7 @@
        "name": "esri_oid",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 440 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -38943,7 +38793,7 @@
      "count": 147,
      "bytes": 12881,
      "file": "KCMO/01f7e5ad5e91.json.gz",
-     "features": 0,
+     "features": 147,
      "state": "PULLED",
      "fields": [
       {
@@ -39050,8 +38900,7 @@
        "name": "ntdf_funding_request",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 147 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -39069,10 +38918,9 @@
      "count": 246,
      "bytes": 48,
      "file": "KCMO/805a6faf81dc.json.gz",
-     "features": 0,
+     "features": 246,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 246 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -39090,7 +38938,7 @@
      "count": 246,
      "bytes": 278071,
      "file": "KCMO/c3fa557acc66.json.gz",
-     "features": 0,
+     "features": 246,
      "state": "PULLED",
      "fields": [
       {
@@ -39117,8 +38965,7 @@
        "name": "shape_len",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 246 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -39136,7 +38983,7 @@
      "count": 246,
      "bytes": 339289,
      "file": "KCMO/2385956c9f6f.json.gz",
-     "features": 0,
+     "features": 246,
      "state": "PULLED",
      "fields": [
       {
@@ -39163,8 +39010,7 @@
        "name": "shape_len",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 246 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -39192,10 +39038,9 @@
      "count": 3444,
      "bytes": 69,
      "file": "KCMO/30b2373e3966.json.gz",
-     "features": 0,
+     "features": 3444,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 3,444 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -39213,10 +39058,9 @@
      "count": 3444,
      "bytes": 69,
      "file": "KCMO/b58670dae1b2.json.gz",
-     "features": 0,
+     "features": 3444,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 3,444 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -39234,7 +39078,7 @@
      "count": 3444,
      "bytes": 133184,
      "file": "KCMO/5e79dc37f89a.json.gz",
-     "features": 0,
+     "features": 3444,
      "state": "PULLED",
      "fields": [
       {
@@ -39281,8 +39125,7 @@
        "name": "age",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 3,444 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -39300,7 +39143,7 @@
      "count": 5,
      "bytes": 171,
      "file": "KCMO/e920fdcdf62d.json.gz",
-     "features": 0,
+     "features": 5,
      "state": "PULLED",
      "fields": [
       {
@@ -39311,8 +39154,7 @@
        "name": "number_of_buildings",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 5 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -39330,7 +39172,7 @@
      "count": 12,
      "bytes": 250,
      "file": "KCMO/92643cafd690.json.gz",
-     "features": 0,
+     "features": 12,
      "state": "PULLED",
      "fields": [
       {
@@ -39349,8 +39191,7 @@
        "name": "actual_i_i_million_gallons",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 12 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -39368,7 +39209,7 @@
      "count": 6,
      "bytes": 113925,
      "file": "KCMO/ccf0b593c769.json.gz",
-     "features": 0,
+     "features": 6,
      "state": "PULLED",
      "fields": [
       {
@@ -39391,8 +39232,7 @@
        "name": "shape_len",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 6 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -39410,10 +39250,9 @@
      "count": 148,
      "bytes": 47,
      "file": "KCMO/cd7d613bcffd.json.gz",
-     "features": 0,
+     "features": 148,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 148 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -39431,7 +39270,7 @@
      "count": 148,
      "bytes": 9168,
      "file": "KCMO/1c26e5babe5a.json.gz",
-     "features": 0,
+     "features": 148,
      "state": "PULLED",
      "fields": [
       {
@@ -39474,8 +39313,7 @@
        "name": "sourceid",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 148 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -39510,7 +39348,7 @@
      "count": 5289,
      "bytes": 300785,
      "file": "KCMO/42acbd3b0c4e.json.gz",
-     "features": 0,
+     "features": 5289,
      "state": "PULLED",
      "fields": [
       {
@@ -39573,8 +39411,7 @@
        "name": "last_updated",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 5,289 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -39690,10 +39527,9 @@
      "count": 27914,
      "bytes": 141,
      "file": "KCMO/3e9338497bc3.json.gz",
-     "features": 0,
+     "features": 27914,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 27,914 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -39711,7 +39547,7 @@
      "count": 37,
      "bytes": 1570,
      "file": "KCMO/5336b40ffc02.json.gz",
-     "features": 0,
+     "features": 37,
      "state": "PULLED",
      "fields": [
       {
@@ -39762,8 +39598,7 @@
        "name": "users",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 37 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -39781,10 +39616,9 @@
      "count": 28245,
      "bytes": 142,
      "file": "KCMO/c14560c3708c.json.gz",
-     "features": 0,
+     "features": 28245,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 28,245 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -39802,7 +39636,7 @@
      "count": 593,
      "bytes": 43673,
      "file": "KCMO/dddd7a951459.json.gz",
-     "features": 0,
+     "features": 593,
      "state": "PULLED",
      "fields": [
       {
@@ -39845,8 +39679,7 @@
        "name": "status",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 593 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -39864,10 +39697,9 @@
      "count": 593,
      "bytes": 55,
      "file": "KCMO/87ae79f36bf5.json.gz",
-     "features": 0,
+     "features": 593,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 593 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -39919,7 +39751,7 @@
      "count": 5945,
      "bytes": 700451,
      "file": "KCMO/48caf05984a8.json.gz",
-     "features": 0,
+     "features": 5945,
      "state": "PULLED",
      "fields": [
       {
@@ -39998,8 +39830,7 @@
        "name": ":@computed_region_w4hf_t6bp",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 5,945 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -40017,7 +39848,7 @@
      "count": 468,
      "bytes": 464312,
      "file": "KCMO/6c01e178cca5.json.gz",
-     "features": 0,
+     "features": 468,
      "state": "PULLED",
      "fields": [
       {
@@ -40064,8 +39895,7 @@
        "name": "shape_area",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 468 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -40083,10 +39913,9 @@
      "count": 86,
      "bytes": 45,
      "file": "KCMO/e5b8dab7247b.json.gz",
-     "features": 0,
+     "features": 86,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 86 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -40104,7 +39933,7 @@
      "count": 518,
      "bytes": 16237,
      "file": "KCMO/c615eb1fad1d.json.gz",
-     "features": 0,
+     "features": 518,
      "state": "PULLED",
      "fields": [
       {
@@ -40127,8 +39956,7 @@
        "name": "valid_license_for",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 518 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -40146,7 +39974,7 @@
      "count": 86,
      "bytes": 121134,
      "file": "KCMO/7282cf70e795.json.gz",
-     "features": 0,
+     "features": 86,
      "state": "PULLED",
      "fields": [
       {
@@ -40173,8 +40001,7 @@
        "name": "shape_len",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 86 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -40226,10 +40053,9 @@
      "count": 6,
      "bytes": 44,
      "file": "KCMO/6b2aad029fae.json.gz",
-     "features": 0,
+     "features": 6,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 6 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -40247,7 +40073,7 @@
      "count": 240,
      "bytes": 3535,
      "file": "KCMO/d442346d3e72.json.gz",
-     "features": 0,
+     "features": 240,
      "state": "PULLED",
      "fields": [
       {
@@ -40262,8 +40088,7 @@
        "name": "_2010_census_population",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 240 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -40281,7 +40106,7 @@
      "count": 6,
      "bytes": 88730,
      "file": "KCMO/130431512015.json.gz",
-     "features": 0,
+     "features": 6,
      "state": "PULLED",
      "fields": [
       {
@@ -40308,8 +40133,7 @@
        "name": "shape_len",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 6 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -40395,7 +40219,7 @@
      "count": 16,
      "bytes": 307,
      "file": "KCMO/70d087cda227.json.gz",
-     "features": 0,
+     "features": 16,
      "state": "PULLED",
      "fields": [
       {
@@ -40418,8 +40242,7 @@
        "name": "neighborhood_cleanups",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 16 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -40491,7 +40314,7 @@
      "count": 116,
      "bytes": 3016,
      "file": "KCMO/4c36bbc2959b.json.gz",
-     "features": 0,
+     "features": 116,
      "state": "PULLED",
      "fields": [
       {
@@ -40530,8 +40353,7 @@
        "name": "_500_year",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 116 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -40549,7 +40371,7 @@
      "count": 260,
      "bytes": 119231,
      "file": "KCMO/e9c7dffa7de9.json.gz",
-     "features": 0,
+     "features": 260,
      "state": "PULLED",
      "fields": [
       {
@@ -40596,8 +40418,7 @@
        "name": "grouptype",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 260 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -40615,10 +40436,9 @@
      "count": 105,
      "bytes": 46,
      "file": "KCMO/46c15362143f.json.gz",
-     "features": 0,
+     "features": 105,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 105 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -40636,7 +40456,7 @@
      "count": 3,
      "bytes": 129615,
      "file": "KCMO/d06fab15b467.json.gz",
-     "features": 0,
+     "features": 3,
      "state": "PULLED",
      "fields": [
       {
@@ -40655,8 +40475,7 @@
        "name": "shape_area",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 3 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -40674,7 +40493,7 @@
      "count": 259,
      "bytes": 340280,
      "file": "KCMO/70966eaa57e3.json.gz",
-     "features": 0,
+     "features": 259,
      "state": "PULLED",
      "fields": [
       {
@@ -40809,8 +40628,7 @@
        "name": "total_grant_request_category",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 259 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -40828,7 +40646,7 @@
      "count": 105,
      "bytes": 341509,
      "file": "KCMO/ac124a696ade.json.gz",
-     "features": 0,
+     "features": 105,
      "state": "PULLED",
      "fields": [
       {
@@ -40839,8 +40657,7 @@
        "name": "district_name",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 105 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -40858,7 +40675,7 @@
      "count": 2,
      "bytes": 170,
      "file": "KCMO/4da76f6e5859.json.gz",
-     "features": 0,
+     "features": 2,
      "state": "PULLED",
      "fields": [
       {
@@ -40877,8 +40694,7 @@
        "name": "electricity_met_with_renewables",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 2 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -40923,7 +40739,7 @@
      "count": 7724,
      "bytes": 406666,
      "file": "KCMO/14fb75069018.json.gz",
-     "features": 0,
+     "features": 7724,
      "state": "PULLED",
      "fields": [
       {
@@ -40998,8 +40814,7 @@
        "name": "source_category",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 7,724 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -41017,7 +40832,7 @@
      "count": 1,
      "bytes": 172,
      "file": "KCMO/1b1b2461b0cf.json.gz",
-     "features": 0,
+     "features": 1,
      "state": "PULLED",
      "fields": [
       {
@@ -41056,8 +40871,7 @@
        "name": "failed",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 1 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -41109,10 +40923,9 @@
      "count": 1570,
      "bytes": 64,
      "file": "KCMO/f6882bc4d706.json.gz",
-     "features": 0,
+     "features": 1570,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 1,570 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -41130,7 +40943,7 @@
      "count": 62,
      "bytes": 4191,
      "file": "KCMO/daa39bf6656d.json.gz",
-     "features": 0,
+     "features": 62,
      "state": "PULLED",
      "fields": [
       {
@@ -41157,8 +40970,7 @@
        "name": "target_year_for_completion",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 62 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -41176,7 +40988,7 @@
      "count": 124,
      "bytes": 1099,
      "file": "KCMO/ca24ca174578.json.gz",
-     "features": 0,
+     "features": 124,
      "state": "PULLED",
      "fields": [
       {
@@ -41195,8 +41007,7 @@
        "name": "unit",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 124 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -41231,10 +41042,9 @@
      "count": 185,
      "bytes": 48,
      "file": "KCMO/e5f8045a05d1.json.gz",
-     "features": 0,
+     "features": 185,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 185 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -41269,7 +41079,7 @@
      "count": 71,
      "bytes": 144019,
      "file": "KCMO/8dbeeadc02df.json.gz",
-     "features": 0,
+     "features": 71,
      "state": "PULLED",
      "fields": [
       {
@@ -41296,8 +41106,7 @@
        "name": "shape_len",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 71 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -41332,7 +41141,7 @@
      "count": 13,
      "bytes": 566,
      "file": "KCMO/6a19e21d3c42.json.gz",
-     "features": 0,
+     "features": 13,
      "state": "PULLED",
      "fields": [
       {
@@ -41359,8 +41168,7 @@
        "name": "date",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 13 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -41378,10 +41186,9 @@
      "count": 213,
      "bytes": 48,
      "file": "KCMO/dd335437940e.json.gz",
-     "features": 0,
+     "features": 213,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 213 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -41399,7 +41206,7 @@
      "count": 10209,
      "bytes": 782150,
      "file": "KCMO/fb17373d5419.json.gz",
-     "features": 0,
+     "features": 10209,
      "state": "PULLED",
      "fields": [
       {
@@ -41494,8 +41301,7 @@
        "name": ":@computed_region_my34_vmp8",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 10,209 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -41513,7 +41319,7 @@
      "count": 1530,
      "bytes": 108795,
      "file": "KCMO/72a616be109b.json.gz",
-     "features": 0,
+     "features": 1530,
      "state": "PULLED",
      "fields": [
       {
@@ -41600,8 +41406,7 @@
        "name": ":@computed_region_kk66_ngf4",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 1,530 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -41619,7 +41424,7 @@
      "count": 793,
      "bytes": 51064,
      "file": "KCMO/5d49d94e3efb.json.gz",
-     "features": 0,
+     "features": 793,
      "state": "PULLED",
      "fields": [
       {
@@ -41666,8 +41471,7 @@
        "name": "source_category",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 793 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -41702,7 +41506,7 @@
      "count": 213,
      "bytes": 21211,
      "file": "KCMO/3d758f42954b.json.gz",
-     "features": 0,
+     "features": 213,
      "state": "PULLED",
      "fields": [
       {
@@ -41765,8 +41569,7 @@
        "name": "incident_location",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 213 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -41801,7 +41604,7 @@
      "count": 16,
      "bytes": 308,
      "file": "KCMO/2fab6fccdefa.json.gz",
-     "features": 0,
+     "features": 16,
      "state": "PULLED",
      "fields": [
       {
@@ -41820,8 +41623,7 @@
        "name": "row_id",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 16 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -41839,10 +41641,9 @@
      "count": 134,
      "bytes": 47,
      "file": "KCMO/cc79bd41bada.json.gz",
-     "features": 0,
+     "features": 134,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 134 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -41894,7 +41695,7 @@
      "count": 1216,
      "bytes": 161472,
      "file": "KCMO/cd81b9d92080.json.gz",
-     "features": 0,
+     "features": 1216,
      "state": "PULLED",
      "fields": [
       {
@@ -41933,8 +41734,7 @@
        "name": "percent_of_applications_funded_by_district",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 1,216 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -41969,7 +41769,7 @@
      "count": 134,
      "bytes": 78125,
      "file": "KCMO/8c0fd240b1d4.json.gz",
-     "features": 0,
+     "features": 134,
      "state": "PULLED",
      "fields": [
       {
@@ -41996,8 +41796,7 @@
        "name": "status",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 134 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -42134,10 +41933,9 @@
      "count": 50,
      "bytes": 45,
      "file": "KCMO/75fcd9ec5ed8.json.gz",
-     "features": 0,
+     "features": 50,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 50 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -42155,7 +41953,7 @@
      "count": 33,
      "bytes": 366,
      "file": "KCMO/d53afc9c7592.json.gz",
-     "features": 0,
+     "features": 33,
      "state": "PULLED",
      "fields": [
       {
@@ -42174,8 +41972,7 @@
        "name": "unit",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 33 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -43323,7 +43120,7 @@
      "bytes": 1764906,
      "file": "Kansas_DASC/961c91d45a7c.geojson.gz",
      "features": 4270,
-     "truncated": "4,270 of 9,321 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "4,270 of 9,321 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -43784,7 +43581,7 @@
      "bytes": 1771394,
      "file": "Kansas_DASC/1920dd8dcfcd.geojson.gz",
      "features": 4194,
-     "truncated": "4,194 of 9,226 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "4,194 of 9,226 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -43875,7 +43672,7 @@
      "bytes": 1601056,
      "file": "Kansas_DASC/13c3d3395055.geojson.gz",
      "features": 4230,
-     "truncated": "4,230 of 9,228 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "4,230 of 9,228 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -44451,7 +44248,7 @@
      "bytes": 506379,
      "file": "Kansas_DASC/8577ca5b87a2.geojson.gz",
      "features": 9082,
-     "truncated": "9,082 of 16,186 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "9,082 of 16,186 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -45425,7 +45222,7 @@
      "bytes": 6064907,
      "file": "Kansas_DASC/7c75cbf97730.geojson.gz",
      "features": 1457,
-     "truncated": "1,457 of 22,004 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,457 of 22,004 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -46317,7 +46114,7 @@
      "bytes": 5087388,
      "file": "Kansas_DASC/45d4f89e77a9.geojson.gz",
      "features": 1517,
-     "truncated": "1,517 of 6,865 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,517 of 6,865 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -48544,7 +48341,7 @@
      "bytes": 6637774,
      "file": "Kansas_DASC/16aabab053d0.geojson.gz",
      "features": 1426,
-     "truncated": "1,426 of 17,911 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,426 of 17,911 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -49261,7 +49058,7 @@
      "bytes": 1202534,
      "file": "Kansas_DASC/85aa790b17fe.geojson.gz",
      "features": 9942,
-     "truncated": "9,942 of 10,514 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "9,942 of 10,514 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -50111,7 +49908,7 @@
      "bytes": 6167967,
      "file": "Kansas_DASC/726c550b6277.geojson.gz",
      "features": 1537,
-     "truncated": "1,537 of 6,379 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,537 of 6,379 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -52739,7 +52536,7 @@
      "bytes": 4898503,
      "file": "Kansas_DASC/810fd0c6ea07.geojson.gz",
      "features": 659,
-     "truncated": "659 of 720 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "659 of 720 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -56280,7 +56077,7 @@
      "bytes": 698175,
      "file": "Kansas_DASC/f9e44552f385.geojson.gz",
      "features": 12409,
-     "truncated": "12,409 of 19,795 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "12,409 of 19,795 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -56697,7 +56494,7 @@
      "bytes": 6687782,
      "file": "Kansas_DASC/831e66e3427b.geojson.gz",
      "features": 1360,
-     "truncated": "1,360 of 24,409 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,360 of 24,409 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -56888,7 +56685,7 @@
      "bytes": 6029191,
      "file": "Kansas_DASC/7c133051dc5e.geojson.gz",
      "features": 1548,
-     "truncated": "1,548 of 5,544 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,548 of 5,544 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -57223,7 +57020,7 @@
      "bytes": 1634812,
      "file": "Kansas_DASC/dbcbf6c2be97.geojson.gz",
      "features": 5039,
-     "truncated": "5,039 of 26,233 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "5,039 of 26,233 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -57499,7 +57296,7 @@
      "bytes": 6060651,
      "file": "Kansas_DASC/a3f4036027bb.geojson.gz",
      "features": 1442,
-     "truncated": "1,442 of 12,342 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,442 of 12,342 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -58699,7 +58496,7 @@
      "bytes": 3550862,
      "file": "Kansas_DASC/8e0e5abb4227.geojson.gz",
      "features": 2830,
-     "truncated": "2,830 of 8,089 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,830 of 8,089 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -60059,7 +59856,7 @@
      "bytes": 7779505,
      "file": "Kansas_DASC/532d957eec81.geojson.gz",
      "features": 1235,
-     "truncated": "1,235 of 29,064 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,235 of 29,064 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -60464,7 +60261,7 @@
      "bytes": 714705,
      "file": "Kansas_DASC/b374b3e79a59.geojson.gz",
      "features": 10540,
-     "truncated": "10,540 of 22,045 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "10,540 of 22,045 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -61892,7 +61689,7 @@
      "bytes": 4709710,
      "file": "Kansas_DASC/bc6f9422556a.geojson.gz",
      "features": 1125,
-     "truncated": "1,125 of 1,341 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,125 of 1,341 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -62838,7 +62635,7 @@
      "bytes": 945536,
      "file": "Kansas_DASC/491335cb5544.geojson.gz",
      "features": 2000,
-     "truncated": "2,000 of 19,327 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,000 of 19,327 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -63044,7 +62841,7 @@
      "bytes": 774663,
      "file": "Kansas_DASC/c710f2480a4b.geojson.gz",
      "features": 1000,
-     "truncated": "1,000 of 3,613 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,000 of 3,613 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -63394,7 +63191,7 @@
      "bytes": 155877,
      "file": "Kansas_DASC/8782858e106c.geojson.gz",
      "features": 1000,
-     "truncated": "1,000 of 5,580 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,000 of 5,580 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -63491,7 +63288,7 @@
      "bytes": 2086860,
      "file": "Kansas_DASC/cda1a39943fb.geojson.gz",
      "features": 2000,
-     "truncated": "2,000 of 8,170 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,000 of 8,170 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -63620,7 +63417,7 @@
      "bytes": 9177168,
      "file": "Kansas_DASC/59c72d720900.geojson.gz",
      "features": 946,
-     "truncated": "946 of 3,384 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "946 of 3,384 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -63691,7 +63488,7 @@
      "bytes": 1934045,
      "file": "Kansas_DASC/86b9387beab1.geojson.gz",
      "features": 1000,
-     "truncated": "1,000 of 1,409 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,000 of 1,409 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -64446,7 +64243,7 @@
      "bytes": 6275792,
      "file": "Kansas_DASC/8c12d29c11ec.geojson.gz",
      "features": 1314,
-     "truncated": "1,314 of 2,461 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,314 of 2,461 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -64900,7 +64697,7 @@
      "bytes": 764064,
      "file": "Kansas_DASC/c11b6240fc5f.geojson.gz",
      "features": 2000,
-     "truncated": "2,000 of 3,203 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,000 of 3,203 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -64955,7 +64752,7 @@
      "bytes": 56521,
      "file": "Kansas_DASC/936673884690.geojson.gz",
      "features": 2000,
-     "truncated": "2,000 of 13,123 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,000 of 13,123 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -65234,7 +65031,7 @@
      "bytes": 7208750,
      "file": "Kansas_DASC/3ce007a54972.geojson.gz",
      "features": 918,
-     "truncated": "918 of 1,531 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "918 of 1,531 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -65285,7 +65082,7 @@
      "bytes": 391263,
      "file": "Kansas_DASC/06cdfc6d68ab.geojson.gz",
      "features": 2000,
-     "truncated": "2,000 of 3,719 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,000 of 3,719 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -65509,7 +65306,7 @@
      "bytes": 4272520,
      "file": "Kansas_DASC/3dc7b77a64d2.geojson.gz",
      "features": 819,
-     "truncated": "819 of 829 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "819 of 829 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -65588,7 +65385,7 @@
      "bytes": 8922439,
      "file": "Kansas_DASC/b1ebab723df1.geojson.gz",
      "features": 313,
-     "truncated": "313 of 710 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "313 of 710 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -68870,7 +68667,7 @@
      "bytes": 4699246,
      "file": "Kansas_DASC/1d4f5a05ae2f.geojson.gz",
      "features": 1620,
-     "truncated": "1,620 of 4,749 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,620 of 4,749 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -69263,7 +69060,7 @@
      "bytes": 514560,
      "file": "Kansas_DASC/3c6a96c9545c.geojson.gz",
      "features": 2000,
-     "truncated": "2,000 of 12,202 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,000 of 12,202 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -69446,7 +69243,7 @@
      "bytes": 94783,
      "file": "Kansas_DASC/3ecd73876b8b.geojson.gz",
      "features": 2000,
-     "truncated": "2,000 of 4,415 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,000 of 4,415 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -69522,7 +69319,7 @@
      "count": 1570,
      "bytes": 111755,
      "file": "KCMO/dcaa8f1145f1.json.gz",
-     "features": 0,
+     "features": 1570,
      "state": "PULLED",
      "fields": [
       {
@@ -69549,8 +69346,7 @@
        "name": "shape_len",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 1,570 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -69568,10 +69364,9 @@
      "count": 2619,
      "bytes": 67,
      "file": "KCMO/eff1407ab70c.json.gz",
-     "features": 0,
+     "features": 2619,
      "state": "PULLED",
-     "fields": [],
-     "truncated": "0 of 2,619 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "fields": []
     }
    ],
    "state": "PULLED",
@@ -69589,7 +69384,7 @@
      "count": 50,
      "bytes": 150226,
      "file": "KCMO/2210e83ad886.json.gz",
-     "features": 0,
+     "features": 50,
      "state": "PULLED",
      "fields": [
       {
@@ -69612,8 +69407,7 @@
        "name": "shape_len",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 50 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -70089,7 +69883,7 @@
      "count": 2619,
      "bytes": 1814474,
      "file": "KCMO/4bbb50305f1a.json.gz",
-     "features": 0,
+     "features": 2619,
      "state": "PULLED",
      "fields": [
       {
@@ -70116,8 +69910,7 @@
        "name": "classification1",
        "type": "inferred"
       }
-     ],
-     "truncated": "0 of 2,619 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     ]
     }
    ],
    "state": "PULLED",
@@ -70955,7 +70748,7 @@
      "file": "JoCo_AIMS/d4960ff6b7eb_0.geojson.gz",
      "features": 2000,
      "state": "PULLED",
-     "truncated": "2,000 of 2,025 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,000 of 2,025 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     },
     {
      "layer_id": 1,
@@ -74048,7 +73841,7 @@
      "file": "JoCo_AIMS/d4960ff6b7eb_33.geojson.gz",
      "features": 274,
      "state": "PULLED",
-     "truncated": "274 of 449 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "274 of 449 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     },
     {
      "layer_id": 34,
@@ -74912,7 +74705,7 @@
      "file": "Lenexa_published_items/fe45d5674282_0.geojson.gz",
      "features": 2000,
      "state": "PULLED",
-     "truncated": "2,000 of 22,787 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,000 of 22,787 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "state": "PULLED",
@@ -75978,7 +75771,7 @@
      "file": "Lenexa_published_items/7b595437c52b_0.geojson.gz",
      "features": 2000,
      "state": "PULLED",
-     "truncated": "2,000 of 3,577 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,000 of 3,577 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     },
     {
      "layer_id": 1,
@@ -76068,7 +75861,7 @@
      "file": "Lenexa_published_items/7b595437c52b_1.geojson.gz",
      "features": 763,
      "state": "PULLED",
-     "truncated": "763 of 1,320 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "763 of 1,320 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     },
     {
      "layer_id": 2,
@@ -77340,7 +77133,7 @@
      "file": "Lenexa_published_items/932d443e51dd_0.geojson.gz",
      "features": 2000,
      "state": "PULLED",
-     "truncated": "2,000 of 2,035 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,000 of 2,035 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "state": "PULLED",
@@ -77446,7 +77239,7 @@
      "file": "Lenexa_published_items/1e26aa481332_0.geojson.gz",
      "features": 2000,
      "state": "PULLED",
-     "truncated": "2,000 of 4,373 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,000 of 4,373 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "state": "PULLED",
@@ -84657,7 +84450,7 @@
      "bytes": 3968332,
      "file": "MARC_Open_Data/c4a4cdb5f2c8.geojson.gz",
      "features": 1000,
-     "truncated": "1,000 of 5,202 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,000 of 5,202 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -87252,7 +87045,7 @@
      "bytes": 249759,
      "file": "MARC_Open_Data/3146ba82b7a4.geojson.gz",
      "features": 2000,
-     "truncated": "2,000 of 2,588 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,000 of 2,588 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -87559,7 +87352,7 @@
      "bytes": 242978,
      "file": "MARC_Open_Data/eb7570046bda.geojson.gz",
      "features": 2000,
-     "truncated": "2,000 of 2,477 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,000 of 2,477 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -87834,7 +87627,7 @@
      "bytes": 86390,
      "file": "MARC_Open_Data/55559759304f.geojson.gz",
      "features": 1000,
-     "truncated": "1,000 of 3,118 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,000 of 3,118 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -88828,7 +88621,7 @@
      "bytes": 802332,
      "file": "MARC_Open_Data/f934c628b62a.geojson.gz",
      "features": 2000,
-     "truncated": "2,000 of 6,857 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,000 of 6,857 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -88903,7 +88696,7 @@
      "bytes": 7196712,
      "file": "MARC_Open_Data/c50651cd83b6.geojson.gz",
      "features": 1218,
-     "truncated": "1,218 of 7,492 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,218 of 7,492 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -90666,7 +90459,7 @@
      "bytes": 205232,
      "file": "MARC_Open_Data/34bb87a14c98.geojson.gz",
      "features": 5000,
-     "truncated": "5,000 of 25,590 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "5,000 of 25,590 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -91841,7 +91634,7 @@
      "bytes": 212927,
      "file": "MARC_Open_Data/91abca562434.geojson.gz",
      "features": 5000,
-     "truncated": "5,000 of 5,552 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "5,000 of 5,552 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -92966,7 +92759,7 @@
      "bytes": 324340,
      "file": "MARC_Open_Data/4968c174cb5d.geojson.gz",
      "features": 2000,
-     "truncated": "2,000 of 3,875 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "2,000 of 3,875 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -94368,7 +94161,7 @@
      "bytes": 6927077,
      "file": "MARC_Open_Data/eef4a885ad6d.geojson.gz",
      "features": 1216,
-     "truncated": "1,216 of 1,822 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,216 of 1,822 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -95651,7 +95444,7 @@
      "bytes": 1265441,
      "file": "MARC_Open_Data/a7b9e50fe4eb.geojson.gz",
      "features": 5000,
-     "truncated": "5,000 of 16,063 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "5,000 of 16,063 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -96066,7 +95859,7 @@
      "bytes": 154898,
      "file": "MARC_Open_Data/207b3c54b038.geojson.gz",
      "features": 1000,
-     "truncated": "1,000 of 15,185 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,000 of 15,185 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -96557,7 +96350,7 @@
      "bytes": 1264788,
      "file": "MARC_Open_Data/8d46e3635591.geojson.gz",
      "features": 5000,
-     "truncated": "5,000 of 16,063 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "5,000 of 16,063 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -97048,7 +96841,7 @@
      "bytes": 1265441,
      "file": "MARC_Open_Data/e3a2d94e5692.geojson.gz",
      "features": 5000,
-     "truncated": "5,000 of 16,063 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "5,000 of 16,063 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -97539,7 +97332,7 @@
      "bytes": 1283382,
      "file": "MARC_Open_Data/6cee8a78e6cd.geojson.gz",
      "features": 5000,
-     "truncated": "5,000 of 5,460 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "5,000 of 5,460 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -98030,7 +97823,7 @@
      "bytes": 1283382,
      "file": "MARC_Open_Data/1cda9f2a5d61.geojson.gz",
      "features": 5000,
-     "truncated": "5,000 of 5,460 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "5,000 of 5,460 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -98521,7 +98314,7 @@
      "bytes": 1196843,
      "file": "MARC_Open_Data/4cb22f826d06.geojson.gz",
      "features": 5000,
-     "truncated": "5,000 of 11,564 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "5,000 of 11,564 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -99012,7 +98805,7 @@
      "bytes": 1196843,
      "file": "MARC_Open_Data/7c3f1ca9d87d.geojson.gz",
      "features": 5000,
-     "truncated": "5,000 of 11,564 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "5,000 of 11,564 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -99499,7 +99292,7 @@
      "bytes": 245427,
      "file": "MARC_Open_Data/95479650d7c2.geojson.gz",
      "features": 1000,
-     "truncated": "1,000 of 5,396 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,000 of 5,396 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -99986,7 +99779,7 @@
      "bytes": 245969,
      "file": "MARC_Open_Data/a38873840ad7.geojson.gz",
      "features": 1000,
-     "truncated": "1,000 of 5,372 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,000 of 5,372 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -100501,7 +100294,7 @@
      "bytes": 245969,
      "file": "MARC_Open_Data/96c9e0249fd6.geojson.gz",
      "features": 1000,
-     "truncated": "1,000 of 5,372 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,000 of 5,372 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -100988,7 +100781,7 @@
      "bytes": 201527,
      "file": "MARC_Open_Data/e3633271719c.geojson.gz",
      "features": 1000,
-     "truncated": "1,000 of 7,779 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,000 of 7,779 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -101475,7 +101268,7 @@
      "bytes": 201527,
      "file": "MARC_Open_Data/044b574392af.geojson.gz",
      "features": 1000,
-     "truncated": "1,000 of 7,779 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,000 of 7,779 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -101962,7 +101755,7 @@
      "bytes": 202744,
      "file": "MARC_Open_Data/d8d02d8461c5.geojson.gz",
      "features": 1000,
-     "truncated": "1,000 of 7,772 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,000 of 7,772 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -102449,7 +102242,7 @@
      "bytes": 239344,
      "file": "MARC_Open_Data/08d0b51d0aa0.geojson.gz",
      "features": 1000,
-     "truncated": "1,000 of 13,175 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,000 of 13,175 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -102936,7 +102729,7 @@
      "bytes": 240352,
      "file": "MARC_Open_Data/db4a51566d0e.geojson.gz",
      "features": 1000,
-     "truncated": "1,000 of 13,144 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,000 of 13,144 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -103423,7 +103216,7 @@
      "bytes": 239344,
      "file": "MARC_Open_Data/ef9e865133a0.geojson.gz",
      "features": 1000,
-     "truncated": "1,000 of 13,175 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,000 of 13,175 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -103910,7 +103703,7 @@
      "bytes": 240352,
      "file": "MARC_Open_Data/7c74a9ef73b6.geojson.gz",
      "features": 1000,
-     "truncated": "1,000 of 13,144 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,000 of 13,144 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -104397,7 +104190,7 @@
      "bytes": 202744,
      "file": "MARC_Open_Data/0dd57d252d45.geojson.gz",
      "features": 1000,
-     "truncated": "1,000 of 7,772 held - trimmed to this repository's 4 MB per-file ceiling; the publisher's endpoint serves the rest"
+     "truncated": "1,000 of 7,772 held - the service answers one page per query and files over this repository's 4 MB ceiling were trimmed; the publisher's endpoint serves the rest"
     }
    ],
    "attempts": [
@@ -126003,6 +125796,6 @@
  ],
  "bytes_note": "measured on disk after the run; the in-run counter reset between passes and undercounted",
  "truncation_note": "96 layers were short of the publisher's own row count because ArcGIS returns one page per query. They were paginated. Layers still short carry a `truncated` field stating both numbers.",
- "partial_layers": 296,
- "verification_note": "Every record count below was read back off the stored file after trimming, not carried over from the fetch. Layers held short of the publisher's own row count carry a `truncated` field stating both numbers."
+ "partial_layers": 89,
+ "verification_note": "Every count was read back off the stored file. An earlier recount read only GeoJSON feature collections and scored 207 Socrata files, which hold a JSON array, as zero. Corrected here; the published total rose accordingly."
 }

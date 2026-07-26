@@ -1,8 +1,8 @@
 # ARK-CIVIC · Holdings
 
 **Captured:** 2026-07-25T20:50:25Z
-**Held in this repository:** 613 datasets · 827 files · 2,109,302 records · 455 MB
-**Held in part:** 296 layers are shorter than the publisher's own row count and each says so
+**Held in this repository:** 613 datasets · 827 files · 2,756,484 records · 455 MB
+**Held in part:** 89 layers are shorter than the publisher's own row count and each says so
 **Instance:** `midwest-lenexa`
 
 Every file below is in `catalog/data/`, gzipped, pulled from the publisher's own
@@ -10,7 +10,7 @@ endpoint. Nothing here is fetched at page load. If every upstream endpoint were
 withdrawn tomorrow, all of it would still be here.
 
 Every count was read back off the stored file after trimming, not carried over
-from the fetch. 296 layers are held in part rather than whole — an ArcGIS
+from the fetch. 89 layers are held in part rather than whole — an ArcGIS
 service answers with one page at a time, and files over this repository's 4 MB
 ceiling were cut. Each of those carries a `truncated` field in `pull_status.json`
 stating both numbers. **A partial holding presented as a whole one is a quiet
@@ -32,7 +32,7 @@ repository and the screen runs before any content request is made.
 | Publishing authority | Datasets held | Records held |
 |---|---:|---:|
 | Kansas Data Access & Support Center | 250 | 1,880,580 |
-| City of Kansas City, Missouri | 207 | 0 |
+| City of Kansas City, Missouri | 207 | 647,182 |
 | Mid-America Regional Council | 99 | 143,054 |
 | Johnson County AIMS | 33 | 70,087 |
 | City of Lenexa, Kansas | 24 | 15,581 |
@@ -68,231 +68,231 @@ repository and the screen runs before any content request is made.
 | Bridges | Mid-America Regional Council | 30,740 | [`endpoint`](https://opendata-marc-gis.hub.arcgis.com/api/download/v1/items/f285b2841fff4cf3a9c25174eb2d0bc9/csv?layers=0) |
 | Clinton DTM 2ft contours LiDAR 2015 | Kansas Data Access & Support Cente | 30,648 | [`endpoint`](https://hub.kansasgis.org/api/download/v1/items/372162d9527f4da8a2ebc5e8d52bdf17/csv?layers=1) |
 | Guardrails - Mobile LiDAR (2023) | Kansas Data Access & Support Cente | 30,358 | [`endpoint`](https://hub.kansasgis.org/api/download/v1/items/306ab8526db545f3873218a777569c4c/csv?layers=1) |
+| FY 2023-2024 Line Item Budget - Expenditures | City of Kansas City, Missouri | 29,647 | [`endpoint`](https://data.kcmo.org/resource/ygzn-3xmu.json) |
+| Business License Holder Map | City of Kansas City, Missouri | 28,245 | [`endpoint`](https://data.kcmo.org/resource/ja2w-8d3v.json) |
+| businesses | City of Kansas City, Missouri | 28,245 | [`endpoint`](https://data.kcmo.org/resource/ezdv-33zs.json) |
+| Business License Holders | City of Kansas City, Missouri | 28,245 | [`endpoint`](https://data.kcmo.org/resource/pnm4-68wg.json) |
+| KCMO Business License Holders | City of Kansas City, Missouri | 28,245 | [`endpoint`](https://data.kcmo.org/resource/96my-yprt.json) |
+| Out of State Business License Holders | City of Kansas City, Missouri | 28,245 | [`endpoint`](https://data.kcmo.org/resource/uwwp-6sdi.json) |
+| Illegal Dumping and Trash in 311 Requests | City of Kansas City, Missouri | 27,914 | [`endpoint`](https://data.kcmo.org/resource/p227-55mh.json) |
+| Open Illegal Dumping and Trash 311 Requests | City of Kansas City, Missouri | 27,914 | [`endpoint`](https://data.kcmo.org/resource/i4yb-fibq.json) |
+| FY 2021-2022 Line Item Budget | City of Kansas City, Missouri | 27,095 | [`endpoint`](https://data.kcmo.org/resource/yv26-kkua.json) |
 | Intersections - Mobile LiDAR (2023) | Kansas Data Access & Support Cente | 25,724 | [`endpoint`](https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/Intersections_2023/FeatureServer/1) |
+| KCMO FY 2019-20 Adopted and Submitted Expenditures | City of Kansas City, Missouri | 24,385 | [`endpoint`](https://data.kcmo.org/resource/y2h3-scv9.json) |
 | Non State Bridges | Kansas Data Access & Support Cente | 19,291 | [`endpoint`](https://hub.kansasgis.org/api/download/v1/items/9b5032d8d36e47079f24b748a3602d70/csv?layers=0) |
 | Oil Production by Section | Kansas Data Access & Support Cente | 19,290 | [`endpoint`](https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Oil_Production_by_Section/FeatureServer/0) |
-| KDHE Regulated Storage Tank | Kansas Data Access & Support Cente | 17,518 | [`endpoint`](https://maps.kdhe.ks.gov/kdhe_doe/rest/services/BER/Tanks_DASC/FeatureServer/0) |
-| Watershed Master Plans | Johnson County AIMS | 15,088 | [`endpoint`](https://maps.jocogov.org/arcgis/rest/services/WatershedMasterPlans/MapServer) |
-| Clinton Lake contours LiDAR 2021 | Kansas Data Access & Support Cente | 13,240 | [`endpoint`](https://hub.kansasgis.org/api/download/v1/items/c60688f954ab46898bb80aecf28e1694/csv?layers=35) |
-| Gas Production by Section | Kansas Data Access & Support Cente | 12,710 | [`endpoint`](https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Gas_Production_by_Section/FeatureServer/0) |
-| Lane Counts - Mobile LiDAR (2023) | Kansas Data Access & Support Cente | 12,409 | [`endpoint`](https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/Lane_Count_2023/FeatureServer/1) |
-| Partial Statewide Historical Geology Polygons | Kansas Data Access & Support Cente | 12,027 | [`endpoint`](https://hub.kansasgis.org/api/download/v1/items/17a6bdd3d1654ba5a85d41a4f3e6ce5e/csv?layers=3) |
-| KDHE Regulated Storage Tanks - Leaking Underground (LUST) | Kansas Data Access & Support Cente | 11,943 | [`endpoint`](https://maps.kdhe.ks.gov/kdhe_doe/rest/services/BER/Tanks_DASC/FeatureServer/2) |
-| KDOT reference post markers | Kansas Data Access & Support Cente | 11,444 | [`endpoint`](https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Layers/KDOT_reference_post_markers/FeatureServer/0) |
-| playas Ver1-3 | Kansas Data Access & Support Cente | 10,540 | [`endpoint`](https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/Playa_Wetlands/FeatureServer/1) |
-| Glacial Drift Aquifer Base | Kansas Data Access & Support Cente | 9,942 | [`endpoint`](https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Glacial_Drift_Aquifer/FeatureServer/0) |
 
 ## Every held dataset (613)
 
 | Dataset | Publisher | Records | Files |
 |---|---|---:|---:|
-| 2010 MARC Population and Employment Forecasts for Census Tracts | City of Kansas City, Missouri | 0 | 1 |
-| 2012-2020 Submitted, Adopted, and Actuals with Codes- Rev | City of Kansas City, Missouri | 0 | 1 |
-| 2013-2017 American Community Survey Detailed Census Tract Data | City of Kansas City, Missouri | 0 | 1 |
-| 2014 Building Permit Listing | City of Kansas City, Missouri | 0 | 1 |
-| 2015-2019 American Community Survey Basic Census Tract Data | City of Kansas City, Missouri | 0 | 1 |
-| 2015-2019 American Community Survey Detailed Census Tract Data | City of Kansas City, Missouri | 0 | 1 |
-| 2017 MARC Population 20-Year Forecasts | City of Kansas City, Missouri | 0 | 1 |
-| 2017 MARC Population and Household 20-Year Forecasts for Census Tracts | City of Kansas City, Missouri | 0 | 1 |
-| 2018 Kansas City Energy and Water Consumption Benchmarking for City-Owned Buil | City of Kansas City, Missouri | 0 | 1 |
-| 2018 Kansas City Energy and Water Consumption Benchmarking for Community-Wide  | City of Kansas City, Missouri | 0 | 1 |
-| 2019 Kansas City Energy and Water Consumption Benchmarking for City-Owned Buil | City of Kansas City, Missouri | 0 | 1 |
-| 2019 Kansas City Energy and Water Consumption Benchmarking for Community-Wide  | City of Kansas City, Missouri | 0 | 1 |
-| 2019 Pothole Requests from 311 | City of Kansas City, Missouri | 0 | 1 |
-| 2020 Building Permit Listing | City of Kansas City, Missouri | 0 | 1 |
-| 2020 MARC Population and Employment Forecasts for Census Tracts | City of Kansas City, Missouri | 0 | 1 |
-| 2021 Kansas City Energy and Water Consumption Benchmarking for City-Owned Buil | City of Kansas City, Missouri | 0 | 1 |
-| 2021 Kansas City Energy and Water Consumption Benchmarking for Community-Wide  | City of Kansas City, Missouri | 0 | 1 |
-| 2022 Kansas City Energy and Water Consumption Benchmarking for City-Owned Buil | City of Kansas City, Missouri | 0 | 1 |
-| 2022 Kansas City Energy and Water Consumption Benchmarking for Community-Wide  | City of Kansas City, Missouri | 0 | 1 |
-| 2023 Kansas City Energy and Water Consumption Benchmarking for City Buildings | City of Kansas City, Missouri | 0 | 1 |
-| 2023 Kansas City Energy and Water Consumption Benchmarking for Community Build | City of Kansas City, Missouri | 0 | 1 |
-| 2024 MVA Update | City of Kansas City, Missouri | 0 | 1 |
-| 311 Monthly Call Volume | City of Kansas City, Missouri | 0 | 1 |
-| 311 Reported Issues - City Planning | City of Kansas City, Missouri | 0 | 1 |
-| 311 Requests by Year | City of Kansas City, Missouri | 0 | 1 |
-| 353 | City of Kansas City, Missouri | 0 | 1 |
-| 353 | City of Kansas City, Missouri | 0 | 1 |
-| AdvanceKC 2.0 | City of Kansas City, Missouri | 0 | 1 |
-| AdvanceKC 2.0 Community Survey | City of Kansas City, Missouri | 0 | 1 |
-| AED Registrations | City of Kansas City, Missouri | 0 | 1 |
-| Animal Control Median Response Time | City of Kansas City, Missouri | 0 | 1 |
-| Animal Services (Post-June 8, 2025) | City of Kansas City, Missouri | 0 | 1 |
-| Area Plan Boundaries | City of Kansas City, Missouri | 0 | 1 |
-| Area Plan Boundaries | City of Kansas City, Missouri | 0 | 1 |
-| BCycle Stats | City of Kansas City, Missouri | 0 | 1 |
-| Benchmarking building lookup list | City of Kansas City, Missouri | 0 | 1 |
-| Budget by Appropriation Unit FY14-15 | City of Kansas City, Missouri | 0 | 1 |
-| Building Codes Interpretations | City of Kansas City, Missouri | 0 | 1 |
-| Business License Holder Map | City of Kansas City, Missouri | 0 | 1 |
-| Business License Holders | City of Kansas City, Missouri | 0 | 1 |
-| Business Satisfaction With Business Assistance Programs | City of Kansas City, Missouri | 0 | 1 |
-| Business Satisfaction with Various City Services (FY2021) | City of Kansas City, Missouri | 0 | 1 |
-| businesses | City of Kansas City, Missouri | 0 | 1 |
-| Capital Improvements 1996 to 2019 | City of Kansas City, Missouri | 0 | 1 |
-| Capital Improvements 1996 to 2020 | City of Kansas City, Missouri | 0 | 1 |
-| Capital Improvements Sales Tax Expenditures FY 2008-2018 | City of Kansas City, Missouri | 0 | 1 |
-| Causes Of Death In KCMO 2007-2012 By Year (Transposed) | City of Kansas City, Missouri | 0 | 1 |
-| Citizen Communication Preferences | City of Kansas City, Missouri | 0 | 1 |
-| Citizen Satisfaction with On-Street Bicycle Infrastructure | City of Kansas City, Missouri | 0 | 1 |
-| City Contracts by Focus Area | City of Kansas City, Missouri | 0 | 1 |
-| City Council Districts Shapefile - Effective 2023 | City of Kansas City, Missouri | 0 | 1 |
-| City of KCMO Cultural Asset Inventory Phase 1 Physical Assets | City of Kansas City, Missouri | 0 | 1 |
-| City of KCMO Cultural Asset Inventory Phase 1 Programs | City of Kansas City, Missouri | 0 | 1 |
-| City of KCMO FY20 Submitted and Adopted Budget- Revenues | City of Kansas City, Missouri | 0 | 1 |
-| City Owned Parcels | City of Kansas City, Missouri | 0 | 1 |
-| City Owned Parcels | City of Kansas City, Missouri | 0 | 1 |
-| City Planning and Development Department Analysis Implementation Status | City of Kansas City, Missouri | 0 | 1 |
-| City Wide Water and Sewer Main Replacement | City of Kansas City, Missouri | 0 | 1 |
-| City-Level Descriptive Statistics for GHG Inventory | City of Kansas City, Missouri | 0 | 1 |
-| Community Greenhouse Gas Inventory Data | City of Kansas City, Missouri | 0 | 1 |
-| Community Improvement District | City of Kansas City, Missouri | 0 | 1 |
-| Community Improvement District | City of Kansas City, Missouri | 0 | 1 |
-| Community Partner Gardens | City of Kansas City, Missouri | 0 | 1 |
-| Commuting method | City of Kansas City, Missouri | 0 | 1 |
-| Comparative for Illegal Dumping Story | City of Kansas City, Missouri | 0 | 1 |
-| Count of LEED Certified Buildings In Kansas City by Certification Level, 2006- | City of Kansas City, Missouri | 0 | 1 |
-| County Boundary | City of Kansas City, Missouri | 0 | 1 |
-| County Boundary_data | City of Kansas City, Missouri | 0 | 1 |
-| Dangerous Buildings Requests (historical) | City of Kansas City, Missouri | 0 | 1 |
-| Demolished Dangerous Buildings | City of Kansas City, Missouri | 0 | 1 |
-| Digital Navigator Events | City of Kansas City, Missouri | 0 | 1 |
-| Digital Navigator Events - Age | City of Kansas City, Missouri | 0 | 1 |
-| Digital Navigator Events - Demographic | City of Kansas City, Missouri | 0 | 1 |
-| Digital Navigator Events - Districts | City of Kansas City, Missouri | 0 | 1 |
-| Digital Navigator Events - Gender | City of Kansas City, Missouri | 0 | 1 |
-| Digital Navigator Events - Laptops | City of Kansas City, Missouri | 0 | 1 |
-| Digital Navigator Events - Participants | City of Kansas City, Missouri | 0 | 1 |
-| Energy Star Certified Homes | City of Kansas City, Missouri | 0 | 1 |
-| Energy Star Homes In Kansas City, Missouri | City of Kansas City, Missouri | 0 | 1 |
-| Energy, Air & Climate Impacts of City-Owned Buildings in Kansas City, MO (2015 | City of Kansas City, Missouri | 0 | 1 |
-| Energy, Air & Climate Impacts of City-Owned Buildings in Kansas City, MO (2016 | City of Kansas City, Missouri | 0 | 1 |
-| Enterprise Zones | City of Kansas City, Missouri | 0 | 1 |
-| Enterprise Zones | City of Kansas City, Missouri | 0 | 1 |
-| Financial Trends Monitoring System Data | City of Kansas City, Missouri | 0 | 1 |
-| Fire Stations | City of Kansas City, Missouri | 0 | 1 |
-| Fire Stations | City of Kansas City, Missouri | 0 | 1 |
-| Flood Alarm Locations | City of Kansas City, Missouri | 0 | 1 |
-| Food Insecurity | City of Kansas City, Missouri | 0 | 1 |
-| FY 2015 to 2020 Customer Survey Data | City of Kansas City, Missouri | 0 | 1 |
-| FY 2017-18 Line Item Budget | City of Kansas City, Missouri | 0 | 1 |
-| FY 2021-2022 Line Item Budget | City of Kansas City, Missouri | 0 | 1 |
-| FY 2023-2024 Line Item Budget - Expenditures | City of Kansas City, Missouri | 0 | 1 |
-| FY 2023-2024 Line Item Budget - Revenue | City of Kansas City, Missouri | 0 | 1 |
-| GO KC Capital Project | City of Kansas City, Missouri | 0 | 1 |
-| Government Operations GHG Inventory Data | City of Kansas City, Missouri | 0 | 1 |
-| Government Operations Statistics for GHG Inventory | City of Kansas City, Missouri | 0 | 1 |
-| Graffiti Requests to 311 (historical) | City of Kansas City, Missouri | 0 | 1 |
-| Greenhouse Gas Emissions Communitywide | City of Kansas City, Missouri | 0 | 1 |
-| Greenhouse Gas Emissions from Government Operations | City of Kansas City, Missouri | 0 | 1 |
-| Homeless Encampment 311 Reports pre-March, 2021. | City of Kansas City, Missouri | 0 | 1 |
-| Homeless/Houseless Issues Reported in myKCMO | City of Kansas City, Missouri | 0 | 1 |
-| Illegal Dumping and Trash in 311 Requests | City of Kansas City, Missouri | 0 | 1 |
-| Illegal Dumping Statistics | City of Kansas City, Missouri | 0 | 1 |
-| Illegal Dumping Story Summary | City of Kansas City, Missouri | 0 | 1 |
-| June 2017 Storm Damage to Trees | City of Kansas City, Missouri | 0 | 1 |
-| Kansas City Missouri Parks and Boulevards Map | City of Kansas City, Missouri | 0 | 1 |
-| Kansas City Monthly Car Auction | City of Kansas City, Missouri | 0 | 1 |
-| Kansas City Neighborhood Borders | City of Kansas City, Missouri | 0 | 1 |
-| Kansas City Neighborhood Boundaries | City of Kansas City, Missouri | 0 | 1 |
-| KC Composting Locations | City of Kansas City, Missouri | 0 | 1 |
-| KC Green Sustainable Projects | City of Kansas City, Missouri | 0 | 1 |
-| KC Register of Historic Places | City of Kansas City, Missouri | 0 | 1 |
-| KC Register of Historic Places | City of Kansas City, Missouri | 0 | 1 |
-| KCATA Bus Stops | City of Kansas City, Missouri | 0 | 1 |
-| KCATA Bus Stops - Deprecated | City of Kansas City, Missouri | 0 | 1 |
-| KCATA Bus Stops Map | City of Kansas City, Missouri | 0 | 1 |
-| KCMO Business License Holders | City of Kansas City, Missouri | 0 | 1 |
-| KCMO Business License Holders | City of Kansas City, Missouri | 0 | 1 |
-| KCMO Food Permits | City of Kansas City, Missouri | 0 | 1 |
-| KCMO FY 2012-2020 Submitted, Adopted, and Actual Budget- Revenue | City of Kansas City, Missouri | 0 | 1 |
-| KCMO FY 2012-2022 Submitted Adopted Actual Line Item Budget Submitted Rev | City of Kansas City, Missouri | 0 | 1 |
-| KCMO FY 2019-20 Adopted and Submitted Expenditures | City of Kansas City, Missouri | 0 | 1 |
-| KCMO FY 2019-20 Adopted and Submitted Revenues | City of Kansas City, Missouri | 0 | 1 |
-| KCMO Warning Siren Addresses | City of Kansas City, Missouri | 0 | 1 |
-| Land Bank and Homesteading Authority Data | City of Kansas City, Missouri | 0 | 1 |
-| Land Bank and Kansas City Missouri Homesteading Authority Data | City of Kansas City, Missouri | 0 | 1 |
-| Land Bank Owned Properties by Neighborhood | City of Kansas City, Missouri | 0 | 1 |
-| Land Bank Properties by Class | City of Kansas City, Missouri | 0 | 1 |
-| Land Bank Properties by Council District | City of Kansas City, Missouri | 0 | 1 |
-| Land Bank Properties by Neighborhood | City of Kansas City, Missouri | 0 | 1 |
-| Land Bank Properties by Property Type | City of Kansas City, Missouri | 0 | 1 |
-| Land Use Codes | City of Kansas City, Missouri | 0 | 1 |
-| layer_0 | City of Kansas City, Missouri | 0 | 1 |
-| LEED Certified Buildings in Kansas City | City of Kansas City, Missouri | 0 | 1 |
-| List of KCMO City Contracts | City of Kansas City, Missouri | 0 | 1 |
-| Litter Index | City of Kansas City, Missouri | 0 | 1 |
-| LLC Affidavits | City of Kansas City, Missouri | 0 | 1 |
-| Location of Dialysis facilities Registered with Medicare | City of Kansas City, Missouri | 0 | 1 |
-| Map of City Council Districts | City of Kansas City, Missouri | 0 | 1 |
-| Map of Council Districts (2014-2023) | City of Kansas City, Missouri | 0 | 1 |
-| Map of Current Land Bank / Homesteading Authority Properties | City of Kansas City, Missouri | 0 | 1 |
-| Map of Land Bank Properties | City of Kansas City, Missouri | 0 | 1 |
-| Map of TIF (Tax Increment Financing) Districts | City of Kansas City, Missouri | 0 | 1 |
-| Market Value Analysis (MVA) 2020 | City of Kansas City, Missouri | 0 | 1 |
-| Market Value Analysis (MVA) 2020 | City of Kansas City, Missouri | 0 | 1 |
-| Monthly Call Volume | City of Kansas City, Missouri | 0 | 1 |
-| National Register of Historic Places | City of Kansas City, Missouri | 0 | 1 |
-| National Register of Historic Places | City of Kansas City, Missouri | 0 | 1 |
-| Neighborhood Cleanups | City of Kansas City, Missouri | 0 | 1 |
-| Neighborhood Improvement District | City of Kansas City, Missouri | 0 | 1 |
-| Neighborhood Improvement District | City of Kansas City, Missouri | 0 | 1 |
-| Neighborhood Tourist Development Fund Applications, 2021 | City of Kansas City, Missouri | 0 | 1 |
-| Neighborhoods Census | City of Kansas City, Missouri | 0 | 1 |
-| Neighborhoods Census | City of Kansas City, Missouri | 0 | 1 |
-| Neighborhoods FOCUS | City of Kansas City, Missouri | 0 | 1 |
-| Neighborhoods FOCUS | City of Kansas City, Missouri | 0 | 1 |
-| Non-DV Aggravated Assaults Involving Firearms | City of Kansas City, Missouri | 0 | 1 |
-| Non-Fatal Assault Map (2023) | City of Kansas City, Missouri | 0 | 1 |
-| Non-Fatal Assault Timeline (2023) | City of Kansas City, Missouri | 0 | 1 |
-| NPD Boardup Reports | City of Kansas City, Missouri | 0 | 1 |
-| Number of LEED Certified Buildings In Kansas City by Rating System | City of Kansas City, Missouri | 0 | 1 |
-| OCP I& I Goals Versus Actual | City of Kansas City, Missouri | 0 | 1 |
-| Off Street Parking | City of Kansas City, Missouri | 0 | 1 |
-| Off Street Parking | City of Kansas City, Missouri | 0 | 1 |
-| Older Council Districts (2014-2023) | City of Kansas City, Missouri | 0 | 1 |
-| Open Data KC Google Analytics Data | City of Kansas City, Missouri | 0 | 1 |
-| Open Illegal Dumping and Trash 311 Requests | City of Kansas City, Missouri | 0 | 1 |
-| Open violations - exterior building issues | City of Kansas City, Missouri | 0 | 1 |
-| Out of State Business License Holders | City of Kansas City, Missouri | 0 | 1 |
-| Outdoor Advertising Signs | City of Kansas City, Missouri | 0 | 1 |
-| Outdoor Advertising Signs | City of Kansas City, Missouri | 0 | 1 |
-| PIEA | City of Kansas City, Missouri | 0 | 1 |
-| PIEA | City of Kansas City, Missouri | 0 | 1 |
-| Plumbers | City of Kansas City, Missouri | 0 | 1 |
-| Police Divisions | City of Kansas City, Missouri | 0 | 1 |
-| Police Divisions | City of Kansas City, Missouri | 0 | 1 |
-| Population by Neighborhood | City of Kansas City, Missouri | 0 | 1 |
-| Public Works Maintenance Districts | City of Kansas City, Missouri | 0 | 1 |
-| Rainfall Depth Table Kansas City Area | City of Kansas City, Missouri | 0 | 1 |
-| Rebuild KC Grant Applications - Second Round | City of Kansas City, Missouri | 0 | 1 |
-| ReBuildKC Applications | City of Kansas City, Missouri | 0 | 1 |
-| Registered Neighborhood/Homes Associations_data | City of Kansas City, Missouri | 0 | 1 |
-| School Districts | City of Kansas City, Missouri | 0 | 1 |
-| School Districts | City of Kansas City, Missouri | 0 | 1 |
-| Short-Term Rental 311 Complaints | City of Kansas City, Missouri | 0 | 1 |
-| Snow and Ice Treatment Needed Jan 2024 | City of Kansas City, Missouri | 0 | 1 |
-| Snow and Ice Treatment Needed Jan 2025 | City of Kansas City, Missouri | 0 | 1 |
-| Solar Electricity Supply for Energy Demand in City-Owned Buildings | City of Kansas City, Missouri | 0 | 1 |
-| Street Condition Ratings (PCI) | City of Kansas City, Missouri | 0 | 1 |
-| Street Resurfacing | City of Kansas City, Missouri | 0 | 1 |
-| Street Resurfacing_data | City of Kansas City, Missouri | 0 | 1 |
-| Summary Of Goals And Objectives 2015-2020 | City of Kansas City, Missouri | 0 | 1 |
-| Sustainability Dashboard | City of Kansas City, Missouri | 0 | 1 |
-| Sustainable Projects Map 2021 | City of Kansas City, Missouri | 0 | 1 |
-| TIF (Tax Increment Financing) Districts | City of Kansas City, Missouri | 0 | 1 |
-| Total Trash And Recycling Collected | City of Kansas City, Missouri | 0 | 1 |
-| Tree Removal via 311 | City of Kansas City, Missouri | 0 | 1 |
-| Tree Violations in EnerGov | City of Kansas City, Missouri | 0 | 1 |
-| Tree Violations in EnerGov | City of Kansas City, Missouri | 0 | 1 |
-| Trees Trimmed And Removed Annually | City of Kansas City, Missouri | 0 | 1 |
-| Urban Renewal | City of Kansas City, Missouri | 0 | 1 |
-| Urban Renewal | City of Kansas City, Missouri | 0 | 1 |
-| Volunteers in Kansas City Metrowide | City of Kansas City, Missouri | 0 | 1 |
-| Zip Codes | City of Kansas City, Missouri | 0 | 1 |
-| Zip Codes | City of Kansas City, Missouri | 0 | 1 |
-| Zoning | City of Kansas City, Missouri | 0 | 1 |
-| Zoning | City of Kansas City, Missouri | 0 | 1 |
+| 2010 MARC Population and Employment Forecasts for Census Tracts | City of Kansas City, Missouri | 579 | 1 |
+| 2012-2020 Submitted, Adopted, and Actuals with Codes- Rev | City of Kansas City, Missouri | 11,713 | 1 |
+| 2013-2017 American Community Survey Detailed Census Tract Data | City of Kansas City, Missouri | 574 | 1 |
+| 2014 Building Permit Listing | City of Kansas City, Missouri | 15,538 | 1 |
+| 2015-2019 American Community Survey Basic Census Tract Data | City of Kansas City, Missouri | 574 | 1 |
+| 2015-2019 American Community Survey Detailed Census Tract Data | City of Kansas City, Missouri | 574 | 1 |
+| 2017 MARC Population 20-Year Forecasts | City of Kansas City, Missouri | 551 | 1 |
+| 2017 MARC Population and Household 20-Year Forecasts for Census Tracts | City of Kansas City, Missouri | 551 | 1 |
+| 2018 Kansas City Energy and Water Consumption Benchmarking for City-Owned Buil | City of Kansas City, Missouri | 153 | 1 |
+| 2018 Kansas City Energy and Water Consumption Benchmarking for Community-Wide  | City of Kansas City, Missouri | 500 | 1 |
+| 2019 Kansas City Energy and Water Consumption Benchmarking for City-Owned Buil | City of Kansas City, Missouri | 174 | 1 |
+| 2019 Kansas City Energy and Water Consumption Benchmarking for Community-Wide  | City of Kansas City, Missouri | 595 | 1 |
+| 2019 Pothole Requests from 311 | City of Kansas City, Missouri | 19,160 | 1 |
+| 2020 Building Permit Listing | City of Kansas City, Missouri | 17,323 | 1 |
+| 2020 MARC Population and Employment Forecasts for Census Tracts | City of Kansas City, Missouri | 551 | 1 |
+| 2021 Kansas City Energy and Water Consumption Benchmarking for City-Owned Buil | City of Kansas City, Missouri | 141 | 1 |
+| 2021 Kansas City Energy and Water Consumption Benchmarking for Community-Wide  | City of Kansas City, Missouri | 772 | 1 |
+| 2022 Kansas City Energy and Water Consumption Benchmarking for City-Owned Buil | City of Kansas City, Missouri | 138 | 1 |
+| 2022 Kansas City Energy and Water Consumption Benchmarking for Community-Wide  | City of Kansas City, Missouri | 1,465 | 1 |
+| 2023 Kansas City Energy and Water Consumption Benchmarking for City Buildings | City of Kansas City, Missouri | 354 | 1 |
+| 2023 Kansas City Energy and Water Consumption Benchmarking for Community Build | City of Kansas City, Missouri | 1,441 | 1 |
+| 2024 MVA Update | City of Kansas City, Missouri | 498 | 1 |
+| 311 Monthly Call Volume | City of Kansas City, Missouri | 112 | 1 |
+| 311 Reported Issues - City Planning | City of Kansas City, Missouri | 7,721 | 1 |
+| 311 Requests by Year | City of Kansas City, Missouri | 16 | 1 |
+| 353 | City of Kansas City, Missouri | 80 | 1 |
+| 353 | City of Kansas City, Missouri | 80 | 1 |
+| AdvanceKC 2.0 | City of Kansas City, Missouri | 854 | 1 |
+| AdvanceKC 2.0 Community Survey | City of Kansas City, Missouri | 854 | 1 |
+| AED Registrations | City of Kansas City, Missouri | 1,348 | 1 |
+| Animal Control Median Response Time | City of Kansas City, Missouri | 66 | 1 |
+| Animal Services (Post-June 8, 2025) | City of Kansas City, Missouri | 15,255 | 1 |
+| Area Plan Boundaries | City of Kansas City, Missouri | 18 | 1 |
+| Area Plan Boundaries | City of Kansas City, Missouri | 18 | 1 |
+| BCycle Stats | City of Kansas City, Missouri | 50 | 1 |
+| Benchmarking building lookup list | City of Kansas City, Missouri | 1,796 | 1 |
+| Budget by Appropriation Unit FY14-15 | City of Kansas City, Missouri | 6 | 1 |
+| Building Codes Interpretations | City of Kansas City, Missouri | 360 | 1 |
+| Business License Holder Map | City of Kansas City, Missouri | 28,245 | 1 |
+| Business License Holders | City of Kansas City, Missouri | 28,245 | 1 |
+| Business Satisfaction With Business Assistance Programs | City of Kansas City, Missouri | 6 | 1 |
+| Business Satisfaction with Various City Services (FY2021) | City of Kansas City, Missouri | 7 | 1 |
+| businesses | City of Kansas City, Missouri | 28,245 | 1 |
+| Capital Improvements 1996 to 2019 | City of Kansas City, Missouri | 5,518 | 1 |
+| Capital Improvements 1996 to 2020 | City of Kansas City, Missouri | 5,741 | 1 |
+| Capital Improvements Sales Tax Expenditures FY 2008-2018 | City of Kansas City, Missouri | 5,328 | 1 |
+| Causes Of Death In KCMO 2007-2012 By Year (Transposed) | City of Kansas City, Missouri | 8 | 1 |
+| Citizen Communication Preferences | City of Kansas City, Missouri | 7 | 1 |
+| Citizen Satisfaction with On-Street Bicycle Infrastructure | City of Kansas City, Missouri | 8 | 1 |
+| City Contracts by Focus Area | City of Kansas City, Missouri | 5,848 | 1 |
+| City Council Districts Shapefile - Effective 2023 | City of Kansas City, Missouri | 6 | 1 |
+| City of KCMO Cultural Asset Inventory Phase 1 Physical Assets | City of Kansas City, Missouri | 230 | 1 |
+| City of KCMO Cultural Asset Inventory Phase 1 Programs | City of Kansas City, Missouri | 209 | 1 |
+| City of KCMO FY20 Submitted and Adopted Budget- Revenues | City of Kansas City, Missouri | 1,793 | 1 |
+| City Owned Parcels | City of Kansas City, Missouri | 2,358 | 1 |
+| City Owned Parcels | City of Kansas City, Missouri | 2,358 | 1 |
+| City Planning and Development Department Analysis Implementation Status | City of Kansas City, Missouri | 325 | 1 |
+| City Wide Water and Sewer Main Replacement | City of Kansas City, Missouri | 6 | 1 |
+| City-Level Descriptive Statistics for GHG Inventory | City of Kansas City, Missouri | 80 | 1 |
+| Community Greenhouse Gas Inventory Data | City of Kansas City, Missouri | 27 | 1 |
+| Community Improvement District | City of Kansas City, Missouri | 73 | 1 |
+| Community Improvement District | City of Kansas City, Missouri | 73 | 1 |
+| Community Partner Gardens | City of Kansas City, Missouri | 343 | 1 |
+| Commuting method | City of Kansas City, Missouri | 10 | 1 |
+| Comparative for Illegal Dumping Story | City of Kansas City, Missouri | 2 | 1 |
+| Count of LEED Certified Buildings In Kansas City by Certification Level, 2006- | City of Kansas City, Missouri | 5 | 1 |
+| County Boundary | City of Kansas City, Missouri | 8 | 1 |
+| County Boundary_data | City of Kansas City, Missouri | 8 | 1 |
+| Dangerous Buildings Requests (historical) | City of Kansas City, Missouri | 7,703 | 1 |
+| Demolished Dangerous Buildings | City of Kansas City, Missouri | 1,912 | 1 |
+| Digital Navigator Events | City of Kansas City, Missouri | 181 | 1 |
+| Digital Navigator Events - Age | City of Kansas City, Missouri | 181 | 1 |
+| Digital Navigator Events - Demographic | City of Kansas City, Missouri | 181 | 1 |
+| Digital Navigator Events - Districts | City of Kansas City, Missouri | 181 | 1 |
+| Digital Navigator Events - Gender | City of Kansas City, Missouri | 181 | 1 |
+| Digital Navigator Events - Laptops | City of Kansas City, Missouri | 181 | 1 |
+| Digital Navigator Events - Participants | City of Kansas City, Missouri | 181 | 1 |
+| Energy Star Certified Homes | City of Kansas City, Missouri | 271 | 1 |
+| Energy Star Homes In Kansas City, Missouri | City of Kansas City, Missouri | 11 | 1 |
+| Energy, Air & Climate Impacts of City-Owned Buildings in Kansas City, MO (2015 | City of Kansas City, Missouri | 141 | 1 |
+| Energy, Air & Climate Impacts of City-Owned Buildings in Kansas City, MO (2016 | City of Kansas City, Missouri | 156 | 1 |
+| Enterprise Zones | City of Kansas City, Missouri | 3 | 1 |
+| Enterprise Zones | City of Kansas City, Missouri | 3 | 1 |
+| Financial Trends Monitoring System Data | City of Kansas City, Missouri | 15 | 1 |
+| Fire Stations | City of Kansas City, Missouri | 34 | 1 |
+| Fire Stations | City of Kansas City, Missouri | 34 | 1 |
+| Flood Alarm Locations | City of Kansas City, Missouri | 44 | 1 |
+| Food Insecurity | City of Kansas City, Missouri | 3 | 1 |
+| FY 2015 to 2020 Customer Survey Data | City of Kansas City, Missouri | 12,893 | 1 |
+| FY 2017-18 Line Item Budget | City of Kansas City, Missouri | 12,261 | 1 |
+| FY 2021-2022 Line Item Budget | City of Kansas City, Missouri | 27,095 | 1 |
+| FY 2023-2024 Line Item Budget - Expenditures | City of Kansas City, Missouri | 29,647 | 1 |
+| FY 2023-2024 Line Item Budget - Revenue | City of Kansas City, Missouri | 2,401 | 1 |
+| GO KC Capital Project | City of Kansas City, Missouri | 27 | 1 |
+| Government Operations GHG Inventory Data | City of Kansas City, Missouri | 33 | 1 |
+| Government Operations Statistics for GHG Inventory | City of Kansas City, Missouri | 141 | 1 |
+| Graffiti Requests to 311 (historical) | City of Kansas City, Missouri | 3,761 | 1 |
+| Greenhouse Gas Emissions Communitywide | City of Kansas City, Missouri | 3 | 1 |
+| Greenhouse Gas Emissions from Government Operations | City of Kansas City, Missouri | 3 | 1 |
+| Homeless Encampment 311 Reports pre-March, 2021. | City of Kansas City, Missouri | 57 | 1 |
+| Homeless/Houseless Issues Reported in myKCMO | City of Kansas City, Missouri | 7,395 | 1 |
+| Illegal Dumping and Trash in 311 Requests | City of Kansas City, Missouri | 27,914 | 1 |
+| Illegal Dumping Statistics | City of Kansas City, Missouri | 100 | 1 |
+| Illegal Dumping Story Summary | City of Kansas City, Missouri | 4 | 1 |
+| June 2017 Storm Damage to Trees | City of Kansas City, Missouri | 859 | 1 |
+| Kansas City Missouri Parks and Boulevards Map | City of Kansas City, Missouri | 468 | 1 |
+| Kansas City Monthly Car Auction | City of Kansas City, Missouri | 162 | 1 |
+| Kansas City Neighborhood Borders | City of Kansas City, Missouri | 246 | 1 |
+| Kansas City Neighborhood Boundaries | City of Kansas City, Missouri | 246 | 1 |
+| KC Composting Locations | City of Kansas City, Missouri | 14 | 1 |
+| KC Green Sustainable Projects | City of Kansas City, Missouri | 185 | 1 |
+| KC Register of Historic Places | City of Kansas City, Missouri | 106 | 1 |
+| KC Register of Historic Places | City of Kansas City, Missouri | 106 | 1 |
+| KCATA Bus Stops | City of Kansas City, Missouri | 2,467 | 1 |
+| KCATA Bus Stops - Deprecated | City of Kansas City, Missouri | 3,566 | 1 |
+| KCATA Bus Stops Map | City of Kansas City, Missouri | 2,467 | 1 |
+| KCMO Business License Holders | City of Kansas City, Missouri | 28,245 | 1 |
+| KCMO Business License Holders | City of Kansas City, Missouri | 15,895 | 1 |
+| KCMO Food Permits | City of Kansas City, Missouri | 3,681 | 1 |
+| KCMO FY 2012-2020 Submitted, Adopted, and Actual Budget- Revenue | City of Kansas City, Missouri | 11,709 | 1 |
+| KCMO FY 2012-2022 Submitted Adopted Actual Line Item Budget Submitted Rev | City of Kansas City, Missouri | 15,543 | 1 |
+| KCMO FY 2019-20 Adopted and Submitted Expenditures | City of Kansas City, Missouri | 24,385 | 1 |
+| KCMO FY 2019-20 Adopted and Submitted Revenues | City of Kansas City, Missouri | 1,793 | 1 |
+| KCMO Warning Siren Addresses | City of Kansas City, Missouri | 126 | 1 |
+| Land Bank and Homesteading Authority Data | City of Kansas City, Missouri | 6,587 | 1 |
+| Land Bank and Kansas City Missouri Homesteading Authority Data | City of Kansas City, Missouri | 6,356 | 1 |
+| Land Bank Owned Properties by Neighborhood | City of Kansas City, Missouri | 6,356 | 1 |
+| Land Bank Properties by Class | City of Kansas City, Missouri | 6,587 | 1 |
+| Land Bank Properties by Council District | City of Kansas City, Missouri | 6,587 | 1 |
+| Land Bank Properties by Neighborhood | City of Kansas City, Missouri | 6,587 | 1 |
+| Land Bank Properties by Property Type | City of Kansas City, Missouri | 6,587 | 1 |
+| Land Use Codes | City of Kansas City, Missouri | 73 | 1 |
+| layer_0 | City of Kansas City, Missouri | 468 | 1 |
+| LEED Certified Buildings in Kansas City | City of Kansas City, Missouri | 103 | 1 |
+| List of KCMO City Contracts | City of Kansas City, Missouri | 5,848 | 1 |
+| Litter Index | City of Kansas City, Missouri | 9 | 1 |
+| LLC Affidavits | City of Kansas City, Missouri | 1,733 | 1 |
+| Location of Dialysis facilities Registered with Medicare | City of Kansas City, Missouri | 14 | 1 |
+| Map of City Council Districts | City of Kansas City, Missouri | 6 | 1 |
+| Map of Council Districts (2014-2023) | City of Kansas City, Missouri | 6 | 1 |
+| Map of Current Land Bank / Homesteading Authority Properties | City of Kansas City, Missouri | 6,356 | 1 |
+| Map of Land Bank Properties | City of Kansas City, Missouri | 6,587 | 1 |
+| Map of TIF (Tax Increment Financing) Districts | City of Kansas City, Missouri | 71 | 1 |
+| Market Value Analysis (MVA) 2020 | City of Kansas City, Missouri | 440 | 1 |
+| Market Value Analysis (MVA) 2020 | City of Kansas City, Missouri | 440 | 1 |
+| Monthly Call Volume | City of Kansas City, Missouri | 112 | 1 |
+| National Register of Historic Places | City of Kansas City, Missouri | 313 | 1 |
+| National Register of Historic Places | City of Kansas City, Missouri | 313 | 1 |
+| Neighborhood Cleanups | City of Kansas City, Missouri | 16 | 1 |
+| Neighborhood Improvement District | City of Kansas City, Missouri | 7 | 1 |
+| Neighborhood Improvement District | City of Kansas City, Missouri | 7 | 1 |
+| Neighborhood Tourist Development Fund Applications, 2021 | City of Kansas City, Missouri | 147 | 1 |
+| Neighborhoods Census | City of Kansas City, Missouri | 246 | 1 |
+| Neighborhoods Census | City of Kansas City, Missouri | 246 | 1 |
+| Neighborhoods FOCUS | City of Kansas City, Missouri | 246 | 1 |
+| Neighborhoods FOCUS | City of Kansas City, Missouri | 246 | 1 |
+| Non-DV Aggravated Assaults Involving Firearms | City of Kansas City, Missouri | 3,444 | 1 |
+| Non-Fatal Assault Map (2023) | City of Kansas City, Missouri | 3,444 | 1 |
+| Non-Fatal Assault Timeline (2023) | City of Kansas City, Missouri | 3,444 | 1 |
+| NPD Boardup Reports | City of Kansas City, Missouri | 5,289 | 1 |
+| Number of LEED Certified Buildings In Kansas City by Rating System | City of Kansas City, Missouri | 5 | 1 |
+| OCP I& I Goals Versus Actual | City of Kansas City, Missouri | 12 | 1 |
+| Off Street Parking | City of Kansas City, Missouri | 148 | 1 |
+| Off Street Parking | City of Kansas City, Missouri | 148 | 1 |
+| Older Council Districts (2014-2023) | City of Kansas City, Missouri | 6 | 1 |
+| Open Data KC Google Analytics Data | City of Kansas City, Missouri | 37 | 1 |
+| Open Illegal Dumping and Trash 311 Requests | City of Kansas City, Missouri | 27,914 | 1 |
+| Open violations - exterior building issues | City of Kansas City, Missouri | 5,945 | 1 |
+| Out of State Business License Holders | City of Kansas City, Missouri | 28,245 | 1 |
+| Outdoor Advertising Signs | City of Kansas City, Missouri | 593 | 1 |
+| Outdoor Advertising Signs | City of Kansas City, Missouri | 593 | 1 |
+| PIEA | City of Kansas City, Missouri | 86 | 1 |
+| PIEA | City of Kansas City, Missouri | 86 | 1 |
+| Plumbers | City of Kansas City, Missouri | 518 | 1 |
+| Police Divisions | City of Kansas City, Missouri | 6 | 1 |
+| Police Divisions | City of Kansas City, Missouri | 6 | 1 |
+| Population by Neighborhood | City of Kansas City, Missouri | 240 | 1 |
+| Public Works Maintenance Districts | City of Kansas City, Missouri | 3 | 1 |
+| Rainfall Depth Table Kansas City Area | City of Kansas City, Missouri | 116 | 1 |
+| Rebuild KC Grant Applications - Second Round | City of Kansas City, Missouri | 259 | 1 |
+| ReBuildKC Applications | City of Kansas City, Missouri | 1,216 | 1 |
+| Registered Neighborhood/Homes Associations_data | City of Kansas City, Missouri | 260 | 1 |
+| School Districts | City of Kansas City, Missouri | 105 | 1 |
+| School Districts | City of Kansas City, Missouri | 105 | 1 |
+| Short-Term Rental 311 Complaints | City of Kansas City, Missouri | 1,530 | 1 |
+| Snow and Ice Treatment Needed Jan 2024 | City of Kansas City, Missouri | 793 | 1 |
+| Snow and Ice Treatment Needed Jan 2025 | City of Kansas City, Missouri | 7,724 | 1 |
+| Solar Electricity Supply for Energy Demand in City-Owned Buildings | City of Kansas City, Missouri | 2 | 1 |
+| Street Condition Ratings (PCI) | City of Kansas City, Missouri | 1 | 1 |
+| Street Resurfacing | City of Kansas City, Missouri | 1,570 | 1 |
+| Street Resurfacing_data | City of Kansas City, Missouri | 1,570 | 1 |
+| Summary Of Goals And Objectives 2015-2020 | City of Kansas City, Missouri | 62 | 1 |
+| Sustainability Dashboard | City of Kansas City, Missouri | 124 | 1 |
+| Sustainable Projects Map 2021 | City of Kansas City, Missouri | 185 | 1 |
+| TIF (Tax Increment Financing) Districts | City of Kansas City, Missouri | 71 | 1 |
+| Total Trash And Recycling Collected | City of Kansas City, Missouri | 13 | 1 |
+| Tree Removal via 311 | City of Kansas City, Missouri | 10,209 | 1 |
+| Tree Violations in EnerGov | City of Kansas City, Missouri | 213 | 1 |
+| Tree Violations in EnerGov | City of Kansas City, Missouri | 213 | 1 |
+| Trees Trimmed And Removed Annually | City of Kansas City, Missouri | 16 | 1 |
+| Urban Renewal | City of Kansas City, Missouri | 134 | 1 |
+| Urban Renewal | City of Kansas City, Missouri | 134 | 1 |
+| Volunteers in Kansas City Metrowide | City of Kansas City, Missouri | 33 | 1 |
+| Zip Codes | City of Kansas City, Missouri | 50 | 1 |
+| Zip Codes | City of Kansas City, Missouri | 50 | 1 |
+| Zoning | City of Kansas City, Missouri | 2,619 | 1 |
+| Zoning | City of Kansas City, Missouri | 2,619 | 1 |
 | Annexation | City of Lenexa, Kansas | 252 | 1 |
 | Comprehensive Plan - Future Land Use | City of Lenexa, Kansas | 1,236 | 2 |
 | Comprehensive Plan - Neighborhood Nodes | City of Lenexa, Kansas | 21 | 1 |
