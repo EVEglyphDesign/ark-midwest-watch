@@ -70,6 +70,7 @@ ARK-CIVIC is aligned to the **permanent state** — the part of public instituti
 | [`sources/REGISTRY.md`](sources/REGISTRY.md) | 31 verified sources across 6 groups, each with cadence, feed status, endpoint, access barrier |
 | [`observations/2026-07-25-baseline.md`](observations/2026-07-25-baseline.md) | Genesis civic-condition observation |
 | [`index.html`](index.html) | The dashboard surface |
+| [`johnson-county-twin/`](johnson-county-twin/index.html) | Johnson County Commons Twin — appliance proposal, EgD-PROP-JCT-001 |
 
 ## What the genesis snapshot found
 

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Johnson County Commons Twin — Appliance Proposal · EVEglyphDesign</title>
+<meta name="description" content="A finished Johnson County Commons Twin, delivered as a single sealed appliance, for a fixed $20,000. Proposal EgD-PROP-JCT-001.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#fdfaf4;
+    --cream-2:#f7f2e7;
+    --ink:#1a1a1a;
+    --line:#e7e1d3;
+    --mute:#6b665c;
+    --accent:#e87722;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--cream);
+    color:var(--ink);
+    font-family:'Inter',ui-sans-serif,system-ui,sans-serif;
+    line-height:1.62;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:44rem;margin:0 auto;padding:0 1.5rem;}
+  header{
+    background:var(--cream-2);
+    border-bottom:1px solid var(--line);
+    padding:3.25rem 0 2.75rem;
+  }
+  .eyebrow{
+    text-transform:uppercase;letter-spacing:.14em;font-size:.72rem;
+    color:var(--accent);font-weight:600;margin:0 0 .9rem;
+  }
+  h1{
+    font-family:'Fraunces',Georgia,serif;
+    font-weight:500;
+    font-size:clamp(2rem,5vw,2.9rem);
+    line-height:1.12;
+    margin:0 0 .6rem;
+    letter-spacing:-.01em;
+  }
+  .sub{
+    font-size:1.15rem;color:var(--mute);margin:0 0 1.4rem;max-width:36rem;
+  }
+  .stamp{
+    font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+    font-size:.78rem;color:var(--mute);margin:0;
+  }
+  .stamp code{
+    background:var(--cream);border:1px solid var(--line);
+    padding:.1em .5em;border-radius:3px;
+  }
+  main{padding-bottom:2rem;}
+  section{padding:2.4rem 0;border-bottom:1px solid var(--line);}
+  section:last-of-type{border-bottom:none;}
+  h2{
+    font-family:'Fraunces',Georgia,serif;
+    font-weight:500;font-size:1.5rem;margin:0 0 1rem;letter-spacing:-.01em;
+  }
+  h3{font-size:1.03rem;font-weight:600;margin:1.6rem 0 .5rem;}
+  p{margin:0 0 1rem;}
+  .lede{font-size:1.08rem;}
+  ul{padding-left:1.3rem;margin:0 0 1rem;}
+  li{margin-bottom:.6rem;}
+  a{color:var(--accent);text-decoration:underline;text-underline-offset:2px;text-decoration-thickness:1px;font-weight:500;}
+  a:hover{color:#c7620f;}
+  .price-card{
+    background:var(--cream-2);
+    border:1px solid var(--line);
+    border-left:4px solid var(--accent);
+    padding:1.75rem 1.85rem;
+    border-radius:4px;
+    margin:1.5rem 0;
+  }
+  .price-card .amount{
+    font-family:'Fraunces',Georgia,serif;
+    font-size:2.4rem;font-weight:600;margin:0 0 .35rem;color:var(--ink);
+  }
+  .price-card p{margin:0 0 .5rem;color:var(--mute);}
+  .price-card p:last-child{margin-bottom:0;}
+  .notice{
+    background:#fff;
+    border:1px solid var(--line);
+    border-left:4px solid var(--accent);
+    padding:1.1rem 1.3rem;
+    border-radius:4px;
+    font-size:.96rem;
+    margin:1.5rem 0;
+  }
+  .notice strong{color:var(--ink);}
+  .links-grid{
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));
+    gap:1rem;margin-top:1rem;
+  }
+  .link-card{
+    display:block;
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:5px;
+    padding:1.25rem 1.35rem;
+    text-decoration:none;
+  }
+  .link-card:hover{border-color:var(--accent);}
+  .link-card .lbl{
+    display:block;font-size:.68rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--accent);font-weight:700;margin-bottom:.5rem;
+  }
+  .link-card .name{
+    display:block;font-family:'Fraunces',Georgia,serif;font-size:1.15rem;
+    color:var(--ink);font-weight:500;text-decoration:none;
+  }
+  .link-card .desc{
+    display:block;font-size:.86rem;color:var(--mute);margin-top:.35rem;
+    text-decoration:none;font-weight:400;
+  }
+  footer{
+    padding:2.5rem 0 3rem;
+    color:var(--mute);
+    font-size:.86rem;
+  }
+  footer .close{
+    font-style:italic;color:var(--ink);margin-top:.75rem;
+  }
+  code.inline{
+    background:var(--cream-2);border:1px solid var(--line);
+    padding:.05em .4em;border-radius:3px;font-size:.92em;
+    font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <p class="eyebrow">EVEglyphDesign · Appliance Proposal</p>
+    <h1>Johnson County Commons Twin</h1>
+    <p class="sub">A finished civic-spatial appliance, sealed and ready to hand on — proposed to Jeff Eden.</p>
+    <p class="stamp">Document <code>EgD-PROP-JCT-001</code> · Key <code>EgD-KEY-2026-07</code> · 2026-07-29T02:38:32Z UTC</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section>
+    <h2>The offer in one line</h2>
+    <p class="lede">A finished Johnson County Commons Twin, delivered as a single sealed
+    appliance, for a fixed <strong>$20,000</strong>, handed to Jeff Eden to take forward
+    commercially if he wants it.</p>
+
+    <div class="price-card">
+      <p class="amount">$20,000</p>
+      <p>Fixed, one time. Appliance, mirror, spatial build, filter and surface included.</p>
+      <p>No monthly, no seat count, no per-record fee.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>What is in the box</h2>
+    <ul>
+      <li><strong>The appliance.</strong> A compact inference/serving box, Strix Halo class —
+      Ryzen AI 9 HX 470 tier, 32 GB, ~150 × 150 × 43 mm, under 120 W, runs 24/7, reachable
+      only over Tailscale. Not a workstation, not a rack.</li>
+      <li><strong>The mirror.</strong> A full local copy of the ARK Midwest Watch civic
+      holdings for Lenexa and Johnson County — 2,756,484 held records across 89 partial
+      layers, held on disk, not linked. Person-level datasets are indexed as existing and
+      never mirrored.</li>
+      <li><strong>The spatial surface.</strong> Every reachable dataset mapped into one 3D
+      coordinate space, so parcels, infrastructure, streets and places sit together instead
+      of in fourteen incompatible viewers.</li>
+      <li><strong>Anonymised presence layer.</strong> Existing camera systems keep operating
+      as they do; a filter on top emits counts and movement only — no identity, no faces,
+      no live video feed.</li>
+      <li><strong>Citizen view.</strong> Residents see movement and traffic patterns in their
+      zone on a phone, and can upload a photo that returns only a headcount.</li>
+      <li><strong>Sharing parity.</strong> Every sharing function people expect from
+      Facebook, available natively — invite, share a place, go together.</li>
+      <li><strong>No pre-arrival loading.</strong> Nothing is marketed before a visitor
+      physically arrives. Once there, the surface adds what is good here, what to order,
+      what not to miss.</li>
+      <li><strong>Payment at the point of experience.</strong> Pay in place; because delivery
+      cost is near nil, proceeds route to a named local Johnson County charity rather than a
+      platform rake.</li>
+      <li><strong>Concentric safety beacons.</strong> Three resident-set zones; a spoken safe
+      word raises a beacon and digitally stamps in-zone feeds, retrievable only on a specific
+      subpoena. Evidence stays with citizens, not pooled centrally.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Commercial terms</h2>
+    <ul>
+      <li><strong>Price:</strong> $20,000, fixed, one time — appliance, mirror, spatial
+      build, filter and surface included.</li>
+      <li><strong>Right of first refusal:</strong> 14 days from the date of this document.
+      After that, the lane moves to the Vita route.</li>
+      <li><strong>Copyright and design rights</strong> remain with EVEglyphDesign. Delivered
+      under a non-exclusive, non-transferable licence — no derivative, resale, or
+      re-implementation without a written EgD licence.</li>
+      <li><strong>Confidential.</strong> Disclosure is for evaluation by the named recipient
+      only.</li>
+    </ul>
+    <div class="notice">
+      <strong>Pricing terms are for the named recipient.</strong> The $20,000 fixed price
+      and the 14-day right of first refusal set out here are extended solely to Jeff Eden
+      and do not constitute a public offer or quotation to any other party.
+    </div>
+  </section>
+
+  <section>
+    <h2>Read the full record</h2>
+    <p>The complete proposal, technical specification, and controlled documents:</p>
+    <div class="links-grid">
+      <a class="link-card" href="EVEglyphDesign_Johnson_County_Twin_Proposal_Jeff_Eden.pdf">
+        <span class="lbl">PDF · Controlled Copy</span>
+        <span class="name">Proposal to Jeff Eden</span>
+        <span class="desc">Watermarked, hashed, EgD-KEY-2026-07</span>
+      </a>
+      <a class="link-card" href="PROPOSAL-JCT-001.md">
+        <span class="lbl">Markdown · Record</span>
+        <span class="name">PROPOSAL-JCT-001</span>
+        <span class="desc">Repository record of the offer and terms</span>
+      </a>
+      <a class="link-card" href="SPEC.md">
+        <span class="lbl">Markdown · Specification</span>
+        <span class="name">Technical Spec &amp; BOM</span>
+        <span class="desc">Hardware tier, data layer, handover runbook</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="wrap">
+  <p>Document <code class="inline">EgD-PROP-JCT-001</code> · Key <code class="inline">EgD-KEY-2026-07</code> · 2026-07-29T02:38:32Z UTC</p>
+  <p>© 2026 EVEglyphDesign. All rights reserved. Controlled copy.</p>
+  <p class="close">Pour le bien-être du peuple.</p>
+</footer>
+
+</body>
+</html>
